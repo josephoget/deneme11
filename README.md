@@ -34,3 +34,9 @@ Puan: eğilim 25, momentum 20, MACD 15, hacim 10, geçmiş performans 15, oynakl
 5. Sayfa açılışında ve sekmeye dönüldüğünde fiyat ve haber JSON dosyaları önbellek atlanarak okunur. Kaynakların gecikmesi ayrıca devam edebilir.
 
 Yerel `file://` açılışında paketlenmiş JS verileri kullanılır. Otomatik yenileme için yayımlanmış HTTP(S) adresini açın. Yerelde `python3 scripts/refresh_universe.py`, ardından `python3 scripts/refresh_market.py` ve `python3 scripts/refresh_news.py` ile dosyalar yenilenebilir; Python standart kütüphanesi yeterlidir.
+
+## Yeni ana sayfa ve doğrudan kaynak yenilemesi
+
+Ana sayfa alınabilir, teyit bekleyen ve verisi sınırlı gruplara ayrı liste adresleriyle bağlanır. Adres içindeki `#varlik/THYAO` seçili varlığı sayfa yenilemede korur. Teknik sıralama, piyasa hareketleri ve mini eğilim grafikleri mevcut fiyat serisinden hesaplanır.
+
+Cloudflare Worker kurulumu `backend/README.md` içinde. Yeni kaynak düğmesi dışarı yönlendirmez: Worker üzerinden kaynak verisini alır ve analizi yeniden hesaplar. API adresi `market-config.js` içinde yapılandırılır; bağlantı kurulmadan düğme bunu açıkça bildirir. Kaynak hataları varlık bazında gösterilir. ALTIN.S1 Yahoo Finance tarafından sağlanmadığı için kaynak hatası ve eski veri uyarısı korunur.

@@ -1,0 +1,5 @@
+name = "lucky-cat-market-api"
+main = "worker.mjs"
+compatibility_date = "2025-01-01"
+[vars]
+SITE_ORIGIN = "https://josephoget.github.io"
