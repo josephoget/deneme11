@@ -1,0 +1,61 @@
+name: Refresh market data and deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # GitHub cron uses UTC. Run during the BIST session in Europe/Istanbul.
+    - cron: '*/10 7-15 * * 1-5'
+    - cron: '17 7,13 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: market-site-deploy
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: '3.12'
+      - name: Refresh KAP membership
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5'
+        run: python scripts/refresh_universe.py
+      - name: Fetch delayed market data
+        if: github.event_name != 'push'
+        run: python scripts/refresh_market.py
+      - name: Fetch per-asset news
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5'
+        run: python scripts/refresh_news.py
+      - name: Commit updated snapshot
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5' || github.event.schedule == '*/10 7-15 * * 1-5'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add market-live.json market-live.js market-universe.json market-universe.js market-news.json market-news.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update market data snapshot'
+            git push
+          fi
+      - name: Prepare static site
+        run: |
+          mkdir public
+          cp index.html aselsan-teknik-analiz.html market.css market.js market-catalog.js market-data.js market-live.js market-live.json market-universe.js market-universe.json market-news.js market-news.json .nojekyll public/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+  deploy:
+    needs: prepare
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
