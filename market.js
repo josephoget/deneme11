@@ -194,4 +194,3 @@ $('openWatchlist').onclick=()=>{drawer.showModal();$('openWatchlist').setAttribu
 $('closeWatchlist').onclick=()=>drawer.close();
 drawer.addEventListener('close',()=>{$('openWatchlist').setAttribute('aria-expanded','false')});
 drawer.addEventListener('click',event=>{if(event.target===drawer){const box=drawer.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)drawer.close()}});
-const demoStyle=document.createElement('style');demoStyle.textContent='.brandHeading{display:flex;align-items:center;gap:14px;flex:1}.brandLogo{width:58px;height:58px;object-fit:cover;border-radius:12px;border:1px solid #405c7c}.stamp .demoTitle{display:block;margin:0 0 7px;font-size:12px;letter-spacing:.04em;color:#dceaff}.stamp #refreshNow,.stamp #fetchSourcesNow{display:inline-block;margin:9px 0 0 17px;text-decoration:none}.stamp #refreshNow{margin-left:7px}';document.head.append(demoStyle);

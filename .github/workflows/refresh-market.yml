@@ -49,6 +49,7 @@ jobs:
         run: |
           mkdir public
           cp index.html aselsan-teknik-analiz.html market.css market.js market-catalog.js market-data.js market-live.js market-live.json market-universe.js market-universe.json market-news.js market-news.json .nojekyll public/
+          cp -R assets public/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: public
