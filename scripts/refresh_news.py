@@ -152,7 +152,7 @@ def get_news(item):
 def main():
     universe=json.loads((ROOT/'market-universe.json').read_text())
     assets={s:ALIASES.get(s,c['name']) for s,c in universe['companies'].items()}
-    assets.update({s:ALIASES[s] for s in ['ALTINS1','XAUUSD','GRAMALTIN','BRENT','WTI','USDTRY','EURTRY','EURUSD']})
+    assets.update({s:ALIASES[s] for s in ['XAUUSD','GRAMALTIN','BRENT','WTI','USDTRY','EURTRY','EURUSD']})
     previous=json.loads((ROOT/'market-news.json').read_text()) if (ROOT/'market-news.json').exists() else {'assets':{}}
     results={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:

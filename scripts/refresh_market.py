@@ -19,7 +19,7 @@ BIST30 = ['AEFES','AKBNK','ASELS','ASTOR','BIMAS','DSTKF','EKGYO','ENKAI','EREGL
 UNIVERSE = json.loads((ROOT/'market-universe.json').read_text())
 BIST30 = UNIVERSE['groups']['XU030']
 STOCKS = UNIVERSE['groups']['XU100']
-SYMBOLS = {key: key + '.IS' for key in STOCKS + ['ALTINS1']}
+SYMBOLS = {key: key + '.IS' for key in STOCKS}
 SYMBOLS.update({'USDTRY':'TRY=X','EURTRY':'EURTRY=X','EURUSD':'EURUSD=X','XAUUSD':'GC=F','BRENT':'BZ=F','WTI':'CL=F'})
 HEADERS = {'User-Agent':'Mozilla/5.0 (compatible; PiyasaMasasi/1.0)','Accept':'application/json'}
 
@@ -70,6 +70,7 @@ def main():
     previous = json.loads(OUT.read_text()) if OUT.exists() else {'assets':{}}
     fallback = json.loads(FALLBACK.read_text()) if FALLBACK.exists() else {}
     assets = previous.get('assets',{}).copy()
+    assets.pop('ALTINS1', None)
     errors = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for key, entry, error in pool.map(fetch_one, SYMBOLS.items()):

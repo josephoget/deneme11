@@ -1,12 +1,13 @@
 const UNIVERSE=window.MARKET_UNIVERSE;
 const BIST30=UNIVERSE.groups.XU030,STOCKS=UNIVERSE.groups.XU100;
-const EXTRA=['ALTINS1','XAUUSD','GRAMALTIN','BRENT','WTI','USDTRY','EURTRY','EURUSD'];
+const EXTRA=['XAUUSD','GRAMALTIN','BRENT','WTI','USDTRY','EURTRY','EURUSD'];
 const ALL=[...STOCKS,...EXTRA],CAT=window.MARKET_CATALOG;
 let live=window.MARKET_LIVE||{assets:{}},newsData=window.MARKET_NEWS||{assets:{}},calcCache=new Map(),rankingCache=null,chartRange=66,chartInterval='daily',current=routeAsset();
 const chartLayers={up:true,down:true,sma20:true,sma50:true,trendSupport:true,trendResistance:true,levelBand:true};
 const openGroups=new Set(['BIST 30']);
 const $=id=>document.getElementById(id),fmt=(n,d=2)=>Number(n).toLocaleString('tr-TR',{minimumFractionDigits:d,maximumFractionDigits:d}),num=n=>Number.isFinite(n)?fmt(n):'—',esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dateText=s=>s?new Date(s+'T12:00:00').toLocaleDateString('tr-TR',{day:'numeric',month:'short',year:'numeric'}):'—';
+delete live.assets?.ALTINS1;delete live.errors?.ALTINS1;
 function entry(sym){return live.assets?.[sym]||null}function rows(sym){let e=entry(sym);return e?.rows?.length?e.rows:window.MARKET_DATA?.[sym]||[]}
 function sma(values,n){return values.map((_,i)=>i<n-1?null:values.slice(i-n+1,i+1).reduce((a,b)=>a+b,0)/n)}
 function ema(values,n){if(!values.length)return [];let k=2/(n+1),x=values[0];return values.map((v,i)=>{x=i?x*(1-k)+v*k:v;return x})}
@@ -169,7 +170,7 @@ function renderContent(){
 }
 function render(){renderStatus();renderContent()}
 window.addEventListener('hashchange',()=>{current=routeAsset();render();window.scrollTo({top:0,behavior:'instant'});if(current)$('assetName').focus({preventScroll:true})});
-async function refresh(){refreshNews();if(location.protocol==='file:'){renderStatus('local');return}try{let response=await fetch(`./market-live.json?t=${Date.now()}`,{cache:'no-store'});if(!response.ok)throw Error(`HTTP ${response.status}`);let latest=await response.json();if(!latest?.assets)throw Error('Geçersiz veri dosyası');if(latest.generatedAt>=String(live.generatedAt||'')){live=latest;calcCache.clear();rankingCache=null}renderStatus('live',Date.now());renderContent()}catch(error){renderStatus('error');$('refreshStatus').insertAdjacentHTML('beforeend',`<small>${esc(error.message||'Bağlantı hatası')} · yeni veri için GitHub Actions çalıştırmasını kontrol edin.</small>`)}}
+async function refresh(){refreshNews();if(location.protocol==='file:'){renderStatus('local');return}try{let response=await fetch(`./market-live.json?t=${Date.now()}`,{cache:'no-store'});if(!response.ok)throw Error(`HTTP ${response.status}`);let latest=await response.json();if(!latest?.assets)throw Error('Geçersiz veri dosyası');if(latest.generatedAt>=String(live.generatedAt||'')){live=latest;delete live.assets?.ALTINS1;delete live.errors?.ALTINS1;calcCache.clear();rankingCache=null}renderStatus('live',Date.now());renderContent()}catch(error){renderStatus('error');$('refreshStatus').insertAdjacentHTML('beforeend',`<small>${esc(error.message||'Bağlantı hatası')} · yeni veri için GitHub Actions çalıştırmasını kontrol edin.</small>`)}}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tabPage').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active')});for(let id of ['search','category'])$(id).addEventListener('input',renderList);for(let id of ['capital','upPct','downPct'])$(id).addEventListener('input',()=>{renderPlan();});render();refresh();document.addEventListener('click',event=>{if(event.target.closest('#refreshSource'))refreshFromSource()});document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh()});setInterval(()=>{if(!document.hidden&&location.protocol!=='file:')refresh()},300000);
 
 document.querySelectorAll('.legendToggle input[data-layer]').forEach(input=>input.addEventListener('change',()=>{chartLayers[input.dataset.layer]=input.checked;const x=calc(current);if(x)drawChart(x)}));

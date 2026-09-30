@@ -1,7 +1,7 @@
 let sourceRefreshBusy=false,sourceRefreshProgress='',sourceRefreshSummary='';
 function marketApiBase(){let stored='';try{stored=localStorage.getItem('lucky-cat-api-url')||''}catch{}return (window.MARKET_API_URL||stored).replace(/\/$/,'')}
 function cacheSourceData(){try{sessionStorage.setItem('lucky-cat-source-data',JSON.stringify(live))}catch{}}
-function restoreSourceData(){try{const saved=JSON.parse(sessionStorage.getItem('lucky-cat-source-data')||'null');if(saved?.assets&&saved.generatedAt>live.generatedAt){live=saved;calcCache.clear();rankingCache=null}}catch{}}
+function restoreSourceData(){try{const saved=JSON.parse(sessionStorage.getItem('lucky-cat-source-data')||'null');if(saved?.assets&&saved.generatedAt>live.generatedAt){live=saved;delete live.assets?.ALTINS1;delete live.errors?.ALTINS1;calcCache.clear();rankingCache=null}}catch{}}
 function sourceEntry(payload,key){
  const result=payload.data?.chart?.result?.[0];if(!result?.timestamp)throw Error('Kaynak geçerli fiyat serisi döndürmedi.');
  const q=result.indicators?.quote?.[0],rows=[],seen=new Map();let omitted=0;
