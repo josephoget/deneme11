@@ -1,4 +1,4 @@
-# Piyasa Masası
+# Şanslı Kedi
 
 GitHub Pages giriş dosyası `index.html` dosyasıdır. Eski `aselsan-teknik-analiz.html` ana sayfaya yönlenir. Dosyaları birlikte yayınlayın.
 

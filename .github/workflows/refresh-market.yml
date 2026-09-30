@@ -15,8 +15,13 @@ concurrency:
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
     steps:
       - uses: actions/checkout@v4
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - uses: actions/setup-python@v5
         if: github.event_name != 'push'
         with:
