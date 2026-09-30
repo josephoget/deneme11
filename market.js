@@ -185,3 +185,5 @@ drawer.addEventListener('close',()=>{$('openWatchlist').setAttribute('aria-expan
 drawer.addEventListener('click',event=>{if(event.target===drawer){const box=drawer.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)drawer.close()}});
 
 initMarketApiControls();
+
+refreshFundamentals();
