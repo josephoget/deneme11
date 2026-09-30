@@ -38,12 +38,19 @@ def fetch_one(item):
                 result = payload['chart']['result'][0]
                 timestamps = result['timestamp']
                 quote = result['indicators']['quote'][0]
+                meta = result.get('meta',{})
+                quote_completed = 0
+                market_stamp = meta.get('regularMarketTime')
+                market_date = dt.datetime.fromtimestamp(market_stamp, dt.timezone.utc).date() if isinstance(market_stamp,(int,float)) else None
                 timezone = dt.timezone.utc
                 rows = []
                 missing_ohlc = 0
                 invalid_ohlc = 0
                 for i, stamp in enumerate(timestamps):
                     vals = [quote[k][i] for k in ('open','high','low','close')]
+                    if vals[3] is None and all(isinstance(v,(int,float)) and math.isfinite(v) for v in vals[:3]) and isinstance(meta.get('regularMarketPrice'),(int,float)) and dt.datetime.fromtimestamp(stamp,dt.timezone.utc).date()==market_date:
+                        vals[3]=meta['regularMarketPrice']
+                        quote_completed+=1
                     if any(v is None for v in vals):
                         missing_ohlc += 1
                         continue
@@ -59,7 +66,7 @@ def fetch_one(item):
                 rows = list({r['date']:r for r in rows}.values())
                 rows.sort(key=lambda r:r['date'])
                 meta = result.get('meta',{})
-                return key, {'symbol':symbol,'currency':meta.get('currency'),'exchangeTimezone':meta.get('exchangeTimezoneName'),'rows':rows,'source':'Yahoo Finance chart API','sourceUrl':f'https://finance.yahoo.com/quote/{path}/history/','lastBar':rows[-1]['date'],'validation':{'receivedBars':len(timestamps),'acceptedBars':len(rows),'omittedBars':len(timestamps)-len(rows),'missingOHLC':missing_ohlc,'invalidOHLC':invalid_ohlc,'ohlcValid':True},'quoteTime':meta.get('regularMarketTime')}, None
+                return key, {'symbol':symbol,'currency':meta.get('currency'),'exchangeTimezone':meta.get('exchangeTimezoneName'),'rows':rows,'source':'Yahoo Finance chart API','sourceUrl':f'https://finance.yahoo.com/quote/{path}/history/','lastBar':rows[-1]['date'],'validation':{'quoteCompletedBars':quote_completed,'receivedBars':len(timestamps),'acceptedBars':len(rows),'omittedBars':len(timestamps)-len(rows),'missingOHLC':missing_ohlc,'invalidOHLC':invalid_ohlc,'ohlcValid':True},'quoteTime':meta.get('regularMarketTime'),'quotePrice':meta.get('regularMarketPrice'),'quoteChangePercent':meta.get('regularMarketChangePercent')}, None
             except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
                 last_error = str(exc)
                 time.sleep(0.8 * (attempt + 1))
