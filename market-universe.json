@@ -1,100 +1,100 @@
 {
-  "checkedAt": "2026-09-29T19:54:29+00:00",
+  "checkedAt": "2026-10-01T14:33:14+00:00",
   "sourceUrl": "https://kap.org.tr/tr/Endeksler",
   "groups": {
     "XU100": [
       "AEFES",
+      "AGHOL",
+      "AHGAZ",
       "AKBNK",
+      "AKCNS",
+      "AKFYE",
       "AKSA",
       "AKSEN",
       "ALARK",
+      "ALBRK",
       "ALTNY",
+      "ANHYT",
       "ANSGR",
       "ARCLK",
       "ASELS",
       "ASTOR",
-      "BALSU",
+      "AYGAZ",
       "BERA",
       "BIMAS",
+      "BINHO",
       "BRSAN",
       "BRYAT",
-      "BSOKE",
       "BTCIM",
       "CANTE",
       "CCOLA",
       "CIMSA",
       "CVKMD",
       "CWENE",
-      "DAPGM",
       "DOAS",
       "DOHOL",
-      "DSTKF",
       "ECILC",
-      "EFOR",
+      "ECZYT",
+      "EGEEN",
+      "EGGUB",
       "EKGYO",
       "ENERY",
       "ENJSA",
       "ENKAI",
+      "ENTRA",
       "EREGL",
-      "ESEN",
-      "EUPWR",
       "EUREN",
       "FENER",
       "FROTO",
       "GARAN",
-      "GENIL",
-      "GESAN",
       "GLRMK",
+      "GLYHO",
       "GRSEL",
-      "GRTHO",
-      "GSRAY",
       "GUBRF",
+      "GWIND",
       "HALKB",
       "HEKTS",
-      "IEYHO",
       "ISCTR",
+      "ISDMR",
       "ISMEN",
-      "IZENR",
+      "KARSN",
+      "KATMR",
+      "KCAER",
       "KCHOL",
-      "KLRHO",
+      "KORDS",
       "KRDMD",
-      "KTLEV",
-      "KUYAS",
-      "MAGEN",
+      "LMKDC",
       "MAVI",
       "MGROS",
-      "MIATK",
       "MPARK",
       "OBAMS",
       "ODAS",
-      "ODINE",
       "OTKAR",
       "OYAKC",
       "PAHOL",
-      "PASEU",
-      "PATEK",
       "PETKM",
       "PGSUS",
-      "PSGYO",
-      "QUAGR",
-      "RALYH",
-      "REEDR",
+      "RGYAS",
+      "RYSAS",
       "SAHOL",
-      "SARKY",
       "SASA",
       "SISE",
-      "SKBNK",
+      "SNGYO",
       "SOKM",
+      "TABGD",
       "TAVHL",
       "TCELL",
+      "TCKRC",
       "THYAO",
       "TKFEN",
       "TOASO",
       "TRALT",
       "TRENJ",
+      "TRGYO",
       "TRMET",
       "TSKB",
       "TTKOM",
+      "TTRAK",
       "TUKAS",
       "TUPRS",
       "TURSG",
@@ -110,7 +110,6 @@
       "ASELS",
       "ASTOR",
       "BIMAS",
-      "DSTKF",
       "EKGYO",
       "ENKAI",
       "EREGL",
@@ -131,6 +130,7 @@
       "THYAO",
       "TOASO",
       "TRALT",
+      "TRMET",
       "TTKOM",
       "TUPRS",
       "VAKBN",
@@ -138,9 +138,29 @@
     ]
   },
   "companies": {
+    "BINHO": {
+      "name": "1000 YATIRIMLAR HOLDİNG A.Ş.",
+      "kapId": "8acae2c48b2fa25a018bba0a5034596d"
+    },
+    "AGHOL": {
+      "name": "AG ANADOLU GRUBU HOLDİNG A.Ş.",
+      "kapId": "4028e4a240f2ef4c014101b18dc000f7"
+    },
+    "AHGAZ": {
+      "name": "AHLATCI DOĞAL GAZ DAĞITIM ENERJİ VE YATIRIM A.Ş.",
+      "kapId": "4028e4a14203278a0142095715f914d0"
+    },
     "AKBNK": {
       "name": "AKBANK T.A.Ş.",
       "kapId": "4028e4a240e8d1830140e905edcd0006"
+    },
+    "AKCNS": {
+      "name": "AKÇANSA ÇİMENTO SANAYİ VE TİCARET A.Ş.",
+      "kapId": "4028e4a140e8cfa00140e92b0c380016"
+    },
+    "AKFYE": {
+      "name": "AKFEN YENİLENEBİLİR ENERJİ A.Ş.",
+      "kapId": "8acae2c48304fe9e0186a66e7a9568ea"
     },
     "AKSA": {
       "name": "AKSA AKRİLİK KİMYA SANAYİİ A.Ş.",
@@ -154,6 +174,10 @@
       "name": "ALARKO HOLDİNG A.Ş.",
       "kapId": "4028e4a241462fd80141500c738e36be"
     },
+    "ALBRK": {
+      "name": "ALBARAKA TÜRK KATILIM BANKASI A.Ş.",
+      "kapId": "4028e4a240f2ef4c014106a1c5ef016d"
+    },
     "ALTNY": {
       "name": "ALTINAY SAVUNMA TEKNOLOJİLERİ A.Ş.",
       "kapId": "8acae2c58b2fa64e018f3d2d712476e2"
@@ -165,6 +189,10 @@
     "AEFES": {
       "name": "ANADOLU EFES BİRACILIK VE MALT SANAYİİ A.Ş.",
       "kapId": "4028e4a140e95bea0140ed2fde10009d"
+    },
+    "ANHYT": {
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.",
+      "kapId": "4028e4a140e95be70140ed40cb930098"
     },
     "ARCLK": {
       "name": "ARÇELİK A.Ş.",
@@ -178,17 +206,13 @@
       "name": "ASTOR ENERJİ A.Ş.",
       "kapId": "8acae2c562329bd10164405fe6c17996"
     },
-    "BALSU": {
-      "name": "BALSU GIDA SANAYİ VE TİCARET A.Ş.",
-      "kapId": "8acae2c580e9103101811f4715cc1821"
+    "AYGAZ": {
+      "name": "AYGAZ A.Ş.",
+      "kapId": "4028e4a140e95be70140ee03bd6000e0"
     },
     "BTCIM": {
       "name": "BATIÇİM BATI ANADOLU SANAYİ VE TİCARET A.Ş.",
       "kapId": "4028e4a140e95be70140ee07044700eb"
-    },
-    "BSOKE": {
-      "name": "BATIÇİM ÇİMENTO SANAYİ A.Ş.",
-      "kapId": "4028e4a24158e42401415920fc3308c5"
     },
     "BERA": {
       "name": "BERA HOLDİNG A.Ş.",
@@ -226,14 +250,6 @@
       "name": "ÇİMSA ÇİMENTO SANAYİ VE TİCARET A.Ş.",
       "kapId": "4028e4a240ee866c0140f1f64bdb0014"
     },
-    "DAPGM": {
-      "name": "DAP GAYRİMENKUL GELİŞTİRME A.Ş.",
-      "kapId": "8acae2c47d3bee4e017ea0492b6a0595"
-    },
-    "DSTKF": {
-      "name": "DESTEK FİNANS FAKTORİNG A.Ş.",
-      "kapId": "4028e4a1415f4d9b01415fe0caa830df"
-    },
     "DOHOL": {
       "name": "DOĞAN ŞİRKETLER GRUBU HOLDİNG A.Ş.",
       "kapId": "4028e4a141462df201414ff732983087"
@@ -242,9 +258,17 @@
       "name": "DOĞUŞ OTOMOTİV SERVİS VE TİCARET A.Ş.",
       "kapId": "4028e4a240e8d16e0140e951bf04007b"
     },
-    "EFOR": {
-      "name": "EFOR YATIRIM SANAYİ TİCARET A.Ş.",
-      "kapId": "8acae2c5819d0efb0182923c4c307fbf"
+    "ECZYT": {
+      "name": "ECZACIBAŞI YATIRIM HOLDİNG ORTAKLIĞI A.Ş.",
+      "kapId": "4028e4a1415f4d9901416012a278321f"
+    },
+    "EGEEN": {
+      "name": "EGE ENDÜSTRİ VE TİCARET A.Ş.",
+      "kapId": "1DE05DAA8254073AE0530A4A622A2EBD"
+    },
+    "EGGUB": {
+      "name": "EGE GÜBRE SANAYİİ A.Ş.",
+      "kapId": "4028e4a2422d9a78014304d729e3673d"
     },
     "ECILC": {
       "name": "EİS ECZACIBAŞI İLAÇ SINAİ VE FİNANSAL YATIRIMLAR SANAYİ VE TİCARET A.Ş.",
@@ -270,17 +294,9 @@
       "name": "EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş.",
       "kapId": "4028e4a240e95dc90140ede4c12a0133"
     },
-    "ESEN": {
-      "name": "ESENBOĞA ELEKTRİK ÜRETİM A.Ş.",
-      "kapId": "8acae2c57436079f0174486159f4072f"
-    },
     "EUREN": {
       "name": "EUROPEN ENDÜSTRİ İNŞAAT SANAYİ VE TİCARET A.Ş.",
       "kapId": "8acae2c580e91030018105632b470bcd"
-    },
-    "EUPWR": {
-      "name": "EUROPOWER ENERJİ VE OTOMASYON TEKNOLOJİLERİ SANAYİ TİCARET A.Ş.",
-      "kapId": "8acae2c486d22a3b01875b5644ea61c4"
     },
     "FENER": {
       "name": "FENERBAHÇE FUTBOL A.Ş.",
@@ -290,21 +306,13 @@
       "name": "FORD OTOMOTİV SANAYİ A.Ş.",
       "kapId": "4028e4a140f2ed71014106890fae0138"
     },
-    "GSRAY": {
-      "name": "GALATASARAY SPORTİF SINAİ VE TİCARİ YATIRIMLAR A.Ş.",
-      "kapId": "4028e4a14203278a0142095598f114ba"
+    "GWIND": {
+      "name": "GALATA WIND ENERJİ A.Ş.",
+      "kapId": "8acae2c46d7599a6016dee0b5aec36b2"
     },
-    "GENIL": {
-      "name": "GEN İLAÇ VE SAĞLIK ÜRÜNLERİ SANAYİ VE TİCARET A.Ş.",
-      "kapId": "8acae2c5794d3d6a017a89f2678a1118"
-    },
-    "GESAN": {
-      "name": "GİRİŞİM ELEKTRİK SANAYİ TAAHHÜT VE TİCARET A.Ş.",
-      "kapId": "8acae2c4794d364a017af66863e41bae"
-    },
-    "GRTHO": {
-      "name": "GRAINTURK HOLDİNG A.Ş.",
-      "kapId": "8acae2c48304fe9c018466742a3b2960"
+    "GLYHO": {
+      "name": "GLOBAL YATIRIM HOLDİNG A.Ş.",
+      "kapId": "4028e4a140e95bea0140ee24416e0197"
     },
     "GUBRF": {
       "name": "GÜBRE FABRİKALARI T.A.Ş.",
@@ -326,49 +334,53 @@
       "name": "HEKTAŞ TİCARET T.A.Ş.",
       "kapId": "4028e4a140ee35c00140ee5d194a0055"
     },
-    "IEYHO": {
-      "name": "IŞIKLAR ENERJİ VE YAPI HOLDİNG A.Ş.",
-      "kapId": "4028e4a140f2ed7201410d315d200314"
+    "ENTRA": {
+      "name": "IC ENTERRA YENİLENEBİLİR ENERJİ A.Ş.",
+      "kapId": "8acae2c48c3efabf018e64e77b5d3e77"
+    },
+    "ISDMR": {
+      "name": "İSKENDERUN DEMİR VE ÇELİK A.Ş.",
+      "kapId": "4028e4a2416e696c01416ee8eb7b3770"
     },
     "ISMEN": {
       "name": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
       "kapId": "4028e4a140f275530140f277aa100008"
     },
-    "IZENR": {
-      "name": "İZDEMİR ENERJİ ELEKTRİK ÜRETİM A.Ş.",
-      "kapId": "8acae2c5534651ff0153612ea22a02ec"
-    },
     "KRDMD": {
       "name": "KARDEMİR KARABÜK DEMİR ÇELİK SANAYİ VE TİCARET A.Ş.",
       "kapId": "4028e4a140f2ed7201412ace3ada0707"
     },
-    "KTLEV": {
-      "name": "KATILIMEVİM TASARRUF FİNANSMAN A.Ş.",
-      "kapId": "8acae2c5830502c20185a9e2e5ac488b"
+    "KARSN": {
+      "name": "KARSAN OTOMOTİV SANAYİİ VE TİCARET A.Ş.",
+      "kapId": "4028e4a140f275530140f2e357a501f7"
     },
-    "KLRHO": {
-      "name": "KİLER HOLDİNG A.Ş.",
-      "kapId": "4028e4a1415f4d990141600b4b5331e2"
+    "KATMR": {
+      "name": "KATMERCİLER ARAÇ ÜSTÜ EKİPMAN SANAYİ VE TİCARET A.Ş.",
+      "kapId": "4028e4a14184e9cf01419c001e945a74"
+    },
+    "TCKRC": {
+      "name": "KIRAÇ GALVANİZ TELEKOMİNİKASYON METAL MAKİNE İNŞAAT ELEKTRİK SANAYİ VE TİCARET A.Ş.",
+      "kapId": "8acae2c48c3efac0019137973fd07e5e"
+    },
+    "KCAER": {
+      "name": "KOCAER ÇELİK SANAYİ VE TİCARET A.Ş.",
+      "kapId": "4028e4a2416f888d01416f9ea04a058f"
     },
     "KCHOL": {
       "name": "KOÇ HOLDİNG A.Ş.",
       "kapId": "4028e4a140f2ed710140f2f4d6c70039"
     },
-    "KUYAS": {
-      "name": "KUYAŞ YATIRIM A.Ş.",
-      "kapId": "4028e4a241a25fd60141a2bf974c04e8"
+    "KORDS": {
+      "name": "KORDSA TEKNİK TEKSTİL A.Ş.",
+      "kapId": "4028e4a140f2ed720140f30606a700ec"
     },
-    "MAGEN": {
-      "name": "MARGÜN ENERJİ ÜRETİM SANAYİ VE TİCARET A.Ş.",
-      "kapId": "8acae2c47afb298a017bf270b76b78f1"
+    "LMKDC": {
+      "name": "LİMAK DOĞU ANADOLU ÇİMENTO SANAYİ VE TİCARET A.Ş.",
+      "kapId": "8acae2c58b2fa64e018d8cfe461558d3"
     },
     "MAVI": {
       "name": "MAVİ GİYİM SANAYİ VE TİCARET A.Ş.",
       "kapId": "4028e4a141733b5101417ea9aae11fec"
-    },
-    "MIATK": {
-      "name": "MİA TEKNOLOJİ A.Ş.",
-      "kapId": "8acae2c47afb298a017cbcef284245ba"
     },
     "MGROS": {
       "name": "MİGROS TİCARET A.Ş.",
@@ -386,10 +398,6 @@
       "name": "ODAŞ ELEKTRİK ÜRETİM SANAYİ TİCARET A.Ş.",
       "kapId": "4028e4a2416e696c01416edd70713183"
     },
-    "ODINE": {
-      "name": "ODİNE SOLUTİONS TEKNOLOJİ TİCARET VE SANAYİ A.Ş.",
-      "kapId": "8acae2c58b2fa64e018e1cbdc7e02623"
-    },
     "OTKAR": {
       "name": "OTOKAR OTOMOTİV VE SAVUNMA SANAYİ A.Ş.",
       "kapId": "4028e4a140ee35c70140ee4316b3001d"
@@ -398,21 +406,9 @@
       "name": "OYAK ÇİMENTO FABRİKALARI A.Ş.",
       "kapId": "4028e4a140f2ed720140f32377aa016c"
     },
-    "PASEU": {
-      "name": "PASİFİK EURASİA LOJİSTİK DIŞ TİCARET A.Ş.",
-      "kapId": "8acae2c586d22c5101887ae575873835"
-    },
-    "PSGYO": {
-      "name": "PASİFİK GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
-      "kapId": "8acae2c4794d364a017a51e9e5d256c9"
-    },
     "PAHOL": {
       "name": "PASİFİK HOLDİNG A.Ş.",
       "kapId": "8acae2c4998f24d8019a5ffde32b0e5a"
-    },
-    "PATEK": {
-      "name": "PASİFİK TEKNOLOJİ A.Ş.",
-      "kapId": "8acae2c58b2fa64e018d63b9afbd4e6c"
     },
     "PGSUS": {
       "name": "PEGASUS HAVA TAŞIMACILIĞI A.Ş.",
@@ -422,33 +418,29 @@
       "name": "PETKİM PETROKİMYA HOLDİNG A.Ş.",
       "kapId": "4028e4a240f2ef470141165c566a03e4"
     },
-    "QUAGR": {
-      "name": "QUA GRANITE HAYAL YAPI VE ÜRÜNLERİ SANAYİ TİCARET A.Ş.",
-      "kapId": "8acae2c469cee2a4016b1c1dc11f2b03"
+    "RYSAS": {
+      "name": "REYSAŞ TAŞIMACILIK VE LOJİSTİK TİCARET A.Ş.",
+      "kapId": "4028e4a140ee847b0140f203980d0030"
     },
-    "RALYH": {
-      "name": "RAL YATIRIM HOLDİNG A.Ş.",
-      "kapId": "4028e4a240f2ef4c0141029be169015f"
-    },
-    "REEDR": {
-      "name": "REEDER TEKNOLOJİ SANAYİ VE TİCARET A.Ş.",
-      "kapId": "8acae2c586d22c53018a73739d9104a8"
-    },
-    "SARKY": {
-      "name": "SARKUYSAN ELEKTROLİTİK BAKIR SANAYİ VE TİCARET A.Ş.",
-      "kapId": "4028e4a140f2ed7101410294f924012d"
+    "RGYAS": {
+      "name": "RÖNESANS GAYRİMENKUL YATIRIM A.Ş.",
+      "kapId": "4028e4a241b612d80141d9a52e2a2727"
     },
     "SASA": {
       "name": "SASA POLYESTER SANAYİ A.Ş.",
       "kapId": "4028e4a240ee866c0140f20abd9500cc"
     },
-    "SKBNK": {
-      "name": "ŞEKERBANK T.A.Ş.",
-      "kapId": "4028e4a240f2ef4c01412adc8fba04ee"
+    "SNGYO": {
+      "name": "SİNPAŞ GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "kapId": "4028e4a14184e9cf01419c0168dd5a87"
     },
     "SOKM": {
       "name": "ŞOK MARKETLER TİCARET A.Ş.",
       "kapId": "4028e4a14184e9c9014198095f4442bf"
+    },
+    "TABGD": {
+      "name": "TAB GIDA SANAYİ VE TİCARET A.Ş.",
+      "kapId": "4028e4a141e536460141e5aa84740938"
     },
     "TAVHL": {
       "name": "TAV HAVALİMANLARI HOLDİNG A.Ş.",
@@ -461,6 +453,10 @@
     "TOASO": {
       "name": "TOFAŞ TÜRK OTOMOBİL FABRİKASI A.Ş.",
       "kapId": "4028e4a140f2ed710140f328bed700a5"
+    },
+    "TRGYO": {
+      "name": "TORUNLAR GAYRİMENKUL YATIRIM ORTAKLIĞI A.Ş.",
+      "kapId": "4028e4a1413b7ef5014144f83882011f"
     },
     "TRMET": {
       "name": "TR ANADOLU METAL MADENCİLİK İŞLETMELERİ A.Ş.",
@@ -521,6 +517,10 @@
     "TTKOM": {
       "name": "TÜRK TELEKOMÜNİKASYON A.Ş.",
       "kapId": "4028e4a241e538ab0141ea9c96912c8b"
+    },
+    "TTRAK": {
+      "name": "TÜRK TRAKTÖR VE ZİRAAT MAKİNELERİ A.Ş.",
+      "kapId": "4028e4a140f2ed720140f3790d6a01ad"
     },
     "ULKER": {
       "name": "ÜLKER BİSKÜVİ SANAYİ A.Ş.",
