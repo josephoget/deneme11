@@ -1,54 +1,72 @@
-# Şanslı Kedi
+# Şanslı Kedi — analiz motoru 3
 
-GitHub Pages giriş dosyası `index.html` dosyasıdır. Eski `aselsan-teknik-analiz.html` ana sayfaya yönlenir. Dosyaları birlikte yayınlayın.
+BIST 100 hisseleri, altın, petrol ve döviz için günlük fiyatlardan açıklanabilir senaryolar üretir. Tarayıcı ve geçmiş işlem ölçümü **aynı `analysis-engine.js` motorunu** kullanır. Kusursuz karar, kâr veya belirli bir başarı oranı vaat etmez. Mevcut geçmiş raporunda negatif sonuçlar da açıkça gösterilir.
 
-## Arayüz ve kapsam
+## Analiz
 
-- Soldan açılan Varlıklar paneli: BIST 30, BIST 100’ün diğer hisseleri, altın, petrol ve döviz. Gruplar açılır/kapanır; ad veya kodla aranır. Ana sayfa yalnız seçilen varlığı gösterir.
-- Endeks üyelikleri [KAP Endeksler](https://kap.org.tr/tr/Endeksler) sayfasından alınır. İlk sürümde 100 hisse ve 8 ek varlık, toplam 108 varlık vardır. BIST 30, BIST 100’ün alt kümesidir; listede tekrar edilmez.
-- OHLC fiyatları ve hacim; SMA20/50/200, RSI14, MACD12/26/9, basit ATR14, Bollinger ve destek/direnç seviyeleri.
-- Günlük mum grafiğinde aralık seçimi, mum ayrıntısı, hacim ve ortalamalar; seçilen varlık için sermaye senaryosu.
+- Günlük SMA20/50/200, RSI14, MACD12/26/9, Wilder ATR14 ve ADX14.
+- Son mum hariç 20 günlük yatay eşikler; iki sağ barla teyit edilmiş tepelerden eğik direnç. Gelecekteki tepeler geçmiş sinyale dahil edilmez.
+- Tamamlanmış haftalarla SMA10 eğilimi; günlük ve haftalık görüş ayrılığı açıklanır.
+- Tarihleri eşleşen mevcut BIST 100 üyelerinin SMA50 üzerindeki oranı ve medyan 20 günlük getiriye göre göreli güç. Bu resmî BIST endeksi değildir; en az 30 emsal gerekir.
+- Kırılım, kırılım adayı, trend içi toparlanma, erken momentum dönüşü, hacimli toparlanma, başarısız kırılım ve zayıf trend ayrı değerlendirilir.
+- Kanıt puanı: trend 25, momentum 20, fiyat yapısı 15, hacim 15, göreli güç 15, piyasa katılımı 10. Puan başarı olasılığı değildir. Eksik bileşenlere olumlu varsayım atanmaz.
+- Fiyatın iyi görünmesi ile işlem planının uygunluğu ayrıdır. Erken aday yakın direnç veya maliyet nedeniyle elverişsiz olabilir.
 
-## Veriler ve haberler
+## Veri kalitesi
 
-`scripts/refresh_universe.py` KAP listesini alır, 100/30 adet kontrolü yapar. Kaynak yapısı değişirse eski listeyi korur ve hata yazar.
+En az 60 geçerli, benzersiz ve tarih sıralı günlük bar gerekir. Bozuk OHLC, eski/kaynak hatalı seri, gelecek tarih, türetilmiş gram altın ve son 60 barda açıklanmamış %40 üzeri açılış boşluğu işlem planını durdurur. Bu son kontrol kurumsal işlem düzeltmesi değildir; inceleme bayrağıdır.
 
-`scripts/refresh_market.py` Yahoo Finance chart API üzerinden 1 yıllık günlük veri alır. Son kontrol ve son fiyat değişimi zamanları ayrıdır. Boş OHLC günleri, tutarsız satırlar ve kullanılan satır sayısı raporlanır. Kaynak hatasında son kayıt korunur. Fiyatların tarih sırası, benzersizliği, pozitifliği ve OHLC ilişkileri tarayıcıda da kontrol edilir. Bu kontroller kaynak fiyatının ikinci bir sağlayıcı tarafından doğrulandığı anlamına gelmez; borsa takvimiyle eksiksizlik karşılaştırması yapılmaz.
+Bugünkü mum, sağlayıcının seans sonu ile bundan en az 15 dakika sonraki çekim birlikte doğrulanmadıkça ön izleme sayılır. Seans bitmeden saklanan mum, ertesi gün otomatik olarak kapanmış sayılmaz. Eski metadatasız geçmiş günlük barlar tarihsel kayıt kabul edilir; ikinci kaynakla doğrulanmış değildir. Hacim eksikse fiyat evresi gösterilebilir, hisse için işleme uygunluk verilmez.
 
-`scripts/refresh_news.py` Google News RSS üzerinden medya başlıklarını bulur; bunları tam makale diye sunmaz. Ayrıca BIST şirketlerinin son 31 günlük KAP bildirim sayfalarını ve her şirkete ait en çok beş bildirimin resmî tam metnini açar. KAP kaydında tam metin okunamadıysa doğrulanmış gibi işaretlenmez; erişim hatasında önceki KAP sonucu korunur. Tam metin kanıt özeti, açıklama türü, olası finansal kanal ve metinde bulunan tutarlar arayüzde gösterilir. Yorum kural tabanlı sınıflandırmadır: açıklanan sözleşme/yatırım tutarı gerçekleşmiş kâr sayılmaz, karar otomatik teknik puana katılmaz ve fiyat etkisi iddia edilmez. Kapsam son 31 gün ve en fazla beş bildirim/şirkettir; tüm siteleri veya tüm haberleri kapsamaz.
+`scripts/refresh_market.py` ve Worker 5 yıllık günlük seri ister. Bu değişiklik mevcut veri dosyasını geriye dönük olarak genişletmez; sonraki başarılı kaynak yenilemesi gerekir. Sağlayıcı seans bitişi ve kurumsal olay bilgileri saklanır. Fiyatların temettü/sermaye işlemlerine göre tam düzeltilmiş olduğu iddia edilmez. Emtia sürekli vadeli serilerinde kontrat devri etkileri olabilir.
 
-Her varlığın Haberler sekmesi ve analiz altındaki kaynak dökümü ayrıdır. Resmî KAP şirket kararları tam metin kontrolüyle medya başlıklarından ayrılır. Medya yayıncısının tüm makalesi bu statik akıştan doğrulanmış sayılmaz. KAP karar özeti ve sınıflandırması izah edilebilir, kural tabanlı ön okumadır; şirket finansallarının ve gerçek fiyat etkisinin tam değerleme çalışması değildir. Haberler teknik puanı otomatik değiştirmez.
+## İşlem planı
 
-ALTIN.S1 fiyat kaynağı 404 verdiği için eski kayıt korunur; otomatik güncel karar verilmez. Teorik gram altın, vadeli ons altın × USD/TRY ÷ 31,1034768 hesabıdır; fiziki altın alış/satış fiyatı değildir. Altın ons, Brent ve WTI vadeli sözleşme referanslarıdır.
+Olumlu teknik adayda günlük fiyat çevresinde örnek giriş bölgesi, ATR ve yakın diplerle geçersizlik/stop, ilk yukarı engel veya 2R hedefi gösterilir. Hedef fiyat tahmini değildir. Maliyet sonrası en az 1,5R, tamamlanmış mum ve gerekli hacim verisi planın işleme uygunluk koşullarıdır. Varsayılan tek yön komisyon + kayma %0,20'dir.
 
-## Teknik kararın kapsamı
+Risk hesabı kullanıcının sermayesini, işlem riski yüzdesini ve tek hisse sermaye sınırını birlikte uygular. Varsayılanlar %1 risk, %20 tek hisse sınırıdır; kişiselleştirilmiş öneri değildir. Hesap giriş bölgesinin üstünü ve iki yön maliyeti kullanır. Stopta fiyat boşluğu varsa kayıp bütçeyi aşabilir. Otomatik adet yalnız BIST paylarında verilir. Döviz/emtia kontrat büyüklüğü modellenmez.
 
-Puan: eğilim 25, momentum 20, MACD 15, hacim 10, geçmiş performans 15, oynaklık 15. Hisseler grup içinde puana göre sıralanır. Güncel ve yeterli veride `ALINABİLİR`, `BEKLE` veya `ALINMAZ`; eksik/bozuk/eski veride `KARAR VERİLEMEZ` gösterilir. En az 200 günlük seri, hisselerde hacim, olumlu puan, ortalama eğilimi, RSI/MACD, hacim ve dirence mesafe birlikte değerlendirilir. Son günlük bar seans içinde tamamlanmamış olabilir. Modelin başarı olasılığı ölçülmemiştir; puan olasılık değildir. Bilanço, değerleme ve kişisel risk profili hesaplanmaz.
+Mevcut adet ve maliyet kullanıcı tarafından girilir; varlık bazında yalnız açık sayfanın belleğinde tutulur. Siteden emir gönderilmez. Çıkış koşulları mevcut pozisyonu gözden geçirme senaryosudur.
 
-## GitHub Pages ve yenileme
+## Geçmiş ölçüm
 
-1. Dosyaları GitHub deponuzun `main` dalına gönderin.
-2. Settings → Pages → Source: **GitHub Actions** seçin.
-3. Actions → **Refresh market data and deploy** → Run workflow ile ilk yenilemeyi başlatın. Gerekirse Actions → General → Workflow permissions bölümünde Read and write permissions seçin.
-4. Workflow fiyatları iş günleri 06:00–16:50 UTC arasında 10 dakikada bir yeniler; KAP ve medya haberlerini 07:17 ve 13:17 UTC'de tarar. Manuel çalıştırma bütün kaynakları yeniler. GitHub zamanlaması gecikebilir; anlık fiyat garantisi yoktur.
-5. Sayfa açılışında ve sekmeye dönüldüğünde fiyat ve haber JSON dosyaları önbellek atlanarak okunur. Kaynakların gecikmesi ayrıca devam edebilir.
+```sh
+node scripts/test-technical.cjs
+node scripts/test-data-pipeline.cjs
+node scripts/evaluate-engine.cjs
+```
 
-Yerel `file://` açılışında paketlenmiş JS verileri kullanılır. Otomatik yenileme için yayımlanmış HTTP(S) adresini açın. Yerelde `python3 scripts/refresh_universe.py`, ardından `python3 scripts/refresh_market.py` ve `python3 scripts/refresh_news.py` ile dosyalar yenilenebilir; Python standart kütüphanesi yeterlidir.
+Son komut `analysis-report.json` ve tarayıcı için `analysis-report.js` üretir. Her hissede:
 
-## Yeni ana sayfa ve doğrudan kaynak yenilemesi
+- Sinyal t kapanışında; giriş en erken t+1 açılışında ve tanımlı fiyat bölgesi içinde.
+- Tek hisse için aynı anda bir uzun pozisyon; en fazla 10 bar tutma.
+- Stop altı açılışta daha kötü açılış fiyatı; aynı mumda stop/hedef varsa stop önce.
+- %0,20 tek yön maliyet; son %30 tarih aralığında ayrıca %0,40 maliyet testi.
+- İşlem sayısı, kazanan oranı, net işlem ortalaması, kâr/zarar toplamı ve örnek işlemler.
+- Aynı son tarih aralığı için alıp tutma karşılaştırması. Piyasada kalma süreleri farklıdır.
 
-Ana sayfa alınabilir, teyit bekleyen ve verisi sınırlı gruplara ayrı liste adresleriyle bağlanır. Adres içindeki `#varlik/THYAO` seçili varlığı sayfa yenilemede korur. Teknik sıralama, piyasa hareketleri ve mini eğilim grafikleri mevcut fiyat serisinden hesaplanır.
+Son %30 tarih aralığı bağımsız ileri test değildir: kurallar geçmiş veriler görüldükten sonra geliştirilmiştir. Şu anki endeks üyeleri kullanıldığından seçim/hayatta kalma yanlılığı vardır. Toplam rapor, bağımsız hisse işlemlerini birleştirir; portföy getirisi değildir. Vergi, temettü, gerçek emir dolumu ve limitli piyasa koşulları modellenmez. Gerileme yalnız kapanmış işlemlerden ölçülür; gün içi/daily maksimum kayıp değildir. 30'dan az işlemler sınırlı örneklem olarak işaretlenir. Sonuçlar geleceğe ilişkin olasılık değildir.
 
-Cloudflare Worker kurulumu `backend/README.md` içinde. Yeni kaynak düğmesi dışarı yönlendirmez: Worker üzerinden kaynak verisini alır ve analizi yeniden hesaplar. API adresi `market-config.js` içinde yapılandırılır; bağlantı kurulmadan düğme bunu açıkça bildirir. Kaynak hataları varlık bazında gösterilir. ALTIN.S1 Yahoo Finance tarafından sağlanmadığı için kaynak hatası ve eski veri uyarısı korunur.
+Rapor, motor sürümü ve fiyat serisi parmak izi eşleşirse gösterilir. Doğrudan API yenilemesi raporla uyuşmazsa eski rapor güncel gibi sunulmaz.
 
-## Teknik karar mantığı
+## Kaynaklar ve temel bilgiler
 
-Dirence yakınlık ve RSI 70 üzeri tek başına alım reddi üretmez. Güçlü trend, kırılım adayı, hacim destekli kırılım ve başarısız kırılım ayrı değerlendirilir. Yatay eşikler son mum hariç önceki 20 bardan, hacim oranı da son mum hariç önceki 20 barın tam hacim kayıtlarından hesaplanır. Karar için en az 50 bar gerekir. RSI puanı güçlü trendde yüksek momentumu cezalandırmaz. Kırılım hacim eşiği 1,2 kattır; aralık sıkışması son 5 bar / önceki 15 bar oranının 0,75 altında olmasıdır. Bunlar test edilerek kalibre edilmiş olasılıklar değildir.
+Üyelik `scripts/refresh_universe.py` ile [KAP endeks sayfasından](https://kap.org.tr/tr/Endeksler) alınır; 100/30 adet ve alt küme ilişkisi kontrol edilir. Worker sembol listesi de yenilenir. Bileşen değişikliği Worker'a ancak yeniden dağıtılınca yansır.
 
-Her karar yukarı ve aşağı senaryoyu, geçersizlik koşullarını ve teyit beklemenin fırsat maliyetini açıklar. Günlük son mum tamamlanmamış olabilir; görülen kırılım kesin kapanış teyidi değildir. Grafik yatay seviyeleri de son mumu dışlar; iki tepeye dayalı yükselen veya düşen direnç çizgisi görseldir ve yatay kırılım kararından ayrı değerlendirilir. Tahmin başarısının arttığı iddiası için yalnızca o tarihte mevcut verilerle geçmiş performans değerlendirmesi gerekir.
+Haberler `scripts/refresh_news.py` ile Google News başlıkları ve sınırlı KAP tam metinlerinden derlenir. Başlıklar tam makale veya doğrulanmış fiyat etkisi değildir. Haberler teknik puanı kendiliğinden değiştirmez. Sektör çarpanları ayrı BilancoVeri kaynağından alınır; sektör medyanına göre tahmin kesin adil fiyat değildir.
 
-### Erken fırsat evreleri
+Gösterge referansı: [Fidelity Technical Indicator Guide](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide). Geçmiş test sınırlamaları: [CFA Institute — Backtesting and Simulation](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/backtesting-and-simulation).
 
-Karar artık tek puan eşiğine bağlı değildir. Güçlü trendde dirence yakınlık olumlu kırılım adayıdır. Hacim, trend/kırılım görünümünde ek teyit olarak sunulur; düşük hacim her olumlu fiyat görünümünü veto etmez. Erken momentum dönüşü yükselen SMA20 üzerindeki fiyatla, iyileşen MACD histogramı ve RSI birlikte aranarak ayrılır. Hacimli toparlanma adayı: en az 0,75 ATR günlük yükseliş, mum aralığının üst %30’unda fiyat, 1,2 kat hacim, önceki barın tepesi veya SMA5 üzerinde fiyat ve iyileşen histogram/RSI. SMA20’den 3 ATR üzerindeki fiyat olumlu trend olsa bile giriş mesafesi geniş olarak gösterilir. Direncin 0,15 ATR üstüne fitil ve 0,15 ATR altına dönüş başarısız kırılım işaretidir. Bu eşikler deneysel kurallardır; geçmiş testle kalibre edilmiş getiri veya olasılık değildir.
+## Çalıştırma ve yayın
 
-Ana sayfa ve varlık ekranı teknik evreyi gösterir. Olumlu aday, kesin alım ya da orta vadeli trend dönüşü anlamına gelmez. Eksik/eski veri kontrolleri korunur. Kontrol komutu: `node scripts/test-technical.cjs`.
+Giriş `index.html`; eski ASELSAN adresi buraya yönlenir. Yerel önizleme:
+
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+GitHub Pages kaynağı **GitHub Actions** olmalıdır. `.github/workflows/refresh-market.yml` testleri çalıştırır, geçmiş raporu yeniden üretir ve bütün motor dosyalarını Pages paketine kopyalar. Zamanlanmış fiyat çekimi iş günleri 07:00–15:50 UTC; haber taraması 07:17 ve 13:17 UTC'dir. GitHub zamanlaması gecikebilir. Manuel çalıştırma bütün veri kaynaklarını yeniler.
+
+Tarayıcı statik fiyat/haber paketini ve endeks üyeliğini yeniler. HTTPS yayında yapılandırılmış Worker üzerinden doğrudan kaynak yenilemesi çalışır. Yerel HTTP önizlemede otomatik Worker çağrısı yapılmaz; Worker yalnız yapılandırılmış site origin'ine izin verir. Worker adresi `market-config.js`; dağıtım yönergesi `backend/README.md`. Yeni Worker kodu ayrıca dağıtılmalıdır; dosya düzenlemek canlı Worker'ı değiştirmez.
+
+Yayınlanan dosyalar: mevcut site dosyalarına ek olarak `analysis-engine.js`, `engine-ui.js`, `analysis-report.js` ve `analysis-report.json`.

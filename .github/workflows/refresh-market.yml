@@ -35,12 +35,21 @@ jobs:
       - name: Fetch per-asset news
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5'
         run: python scripts/refresh_news.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify analysis engine
+        run: |
+          node scripts/test-technical.cjs
+          node scripts/test-data-pipeline.cjs
+      - name: Measure historical plans
+        run: node scripts/evaluate-engine.cjs
       - name: Commit updated snapshot
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5' || github.event.schedule == '*/10 7-15 * * 1-5'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add market-live.json market-live.js market-universe.json market-universe.js market-news.json market-news.js
+          git add backend/symbols.mjs analysis-report.json analysis-report.js market-live.json market-live.js market-universe.json market-universe.js market-news.json market-news.js
           if ! git diff --cached --quiet; then
             git commit -m 'Update market data snapshot'
             git push
@@ -48,7 +57,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html aselsan-teknik-analiz.html market.css market.js home.js valuation.js market-config.js market-refresh.js market-catalog.js market-data.js market-live.js market-live.json market-universe.js market-universe.json market-news.js market-news.json .nojekyll public/
+          cp analysis-engine.js engine-ui.js analysis-report.js analysis-report.json index.html aselsan-teknik-analiz.html market.css market.js home.js valuation.js market-config.js market-refresh.js market-catalog.js market-data.js market-live.js market-live.json market-universe.js market-universe.json market-news.js market-news.json .nojekyll public/
           cp -R assets public/
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -24,6 +24,9 @@ def parse_page(html):
     if not set(groups['XU030']).issubset(groups['XU100']):raise ValueError('Inconsistent index membership')
     return {'checkedAt':dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),'sourceUrl':SOURCE,'groups':groups,'companies':companies}
 def save(data):
+    symbols={key:key+'.IS' for key in data['groups']['XU100']}
+    symbols.update({'USDTRY':'TRY=X','EURTRY':'EURTRY=X','EURUSD':'EURUSD=X','XAUUSD':'GC=F','BRENT':'BZ=F','WTI':'CL=F'})
+    (ROOT/'backend/symbols.mjs').write_text('export default '+json.dumps(symbols,separators=(',',':'))+';\n')
     (ROOT/'market-universe.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'market-universe.js').write_text('window.MARKET_UNIVERSE='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')
 def main():

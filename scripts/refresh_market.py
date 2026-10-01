@@ -26,7 +26,7 @@ HEADERS = {'User-Agent':'Mozilla/5.0 (compatible; PiyasaMasasi/1.0)','Accept':'a
 def fetch_one(item):
     key, symbol = item
     path = urllib.parse.quote(symbol, safe='')
-    query = urllib.parse.urlencode({'range':'1y','interval':'1d','events':'history'})
+    query = urllib.parse.urlencode({'range':'5y','interval':'1d','events':'div,splits'})
     last_error = None
     for host in ('query1.finance.yahoo.com','query2.finance.yahoo.com'):
         for attempt in range(3):
@@ -56,6 +56,8 @@ def fetch_one(item):
                         continue
                     o,h,l,c = [round(float(v), 6) for v in vals]
                     v = quote.get('volume', [None] * len(timestamps))[i]
+                    if v is not None and (not isinstance(v,(int,float)) or not math.isfinite(v) or v < 0):
+                        v = None
                     if not all(math.isfinite(v) for v in (o,h,l,c)) or min(o,h,l,c) <= 0 or l > min(o,c) or h < max(o,c):
                         invalid_ohlc += 1
                         continue
@@ -66,7 +68,7 @@ def fetch_one(item):
                 rows = list({r['date']:r for r in rows}.values())
                 rows.sort(key=lambda r:r['date'])
                 meta = result.get('meta',{})
-                return key, {'symbol':symbol,'currency':meta.get('currency'),'exchangeTimezone':meta.get('exchangeTimezoneName'),'rows':rows,'source':'Yahoo Finance chart API','sourceUrl':f'https://finance.yahoo.com/quote/{path}/history/','lastBar':rows[-1]['date'],'validation':{'quoteCompletedBars':quote_completed,'receivedBars':len(timestamps),'acceptedBars':len(rows),'omittedBars':len(timestamps)-len(rows),'missingOHLC':missing_ohlc,'invalidOHLC':invalid_ohlc,'ohlcValid':True},'quoteTime':meta.get('regularMarketTime'),'quotePrice':meta.get('regularMarketPrice'),'quoteChangePercent':meta.get('regularMarketChangePercent')}, None
+                return key, {'symbol':symbol,'currency':meta.get('currency'),'exchangeTimezone':meta.get('exchangeTimezoneName'),'rows':rows,'source':'Yahoo Finance chart API','sourceUrl':f'https://finance.yahoo.com/quote/{path}/history/','lastBar':rows[-1]['date'],'validation':{'quoteCompletedBars':quote_completed,'receivedBars':len(timestamps),'acceptedBars':len(rows),'omittedBars':len(timestamps)-len(rows),'missingOHLC':missing_ohlc,'invalidOHLC':invalid_ohlc,'ohlcValid':True},'sessionEnd':meta.get('currentTradingPeriod',{}).get('regular',{}).get('end'),'corporateActions':result.get('events',{}),'quoteTime':meta.get('regularMarketTime'),'quotePrice':meta.get('regularMarketPrice'),'quoteChangePercent':meta.get('regularMarketChangePercent')}, None
             except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError, json.JSONDecodeError) as exc:
                 last_error = str(exc)
                 time.sleep(0.8 * (attempt + 1))
