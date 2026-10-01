@@ -76,7 +76,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     previous = json.loads(OUT.read_text()) if OUT.exists() else {'assets':{}}
     fallback = json.loads(FALLBACK.read_text()) if FALLBACK.exists() else {}
-    assets = previous.get('assets',{}).copy()
+    assets = {s:e for s,e in previous.get('assets',{}).items() if s in SYMBOLS or s=='GRAMALTIN'}
     assets.pop('ALTINS1', None)
     errors = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:

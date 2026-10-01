@@ -30,7 +30,20 @@ def main():
     try:
         req=urllib.request.Request(SOURCE,headers={'User-Agent':'Mozilla/5.0'})
         with urllib.request.urlopen(req,timeout=30) as r: data=parse_page(r.read().decode())
-        save(data);print('KAP: 100 BIST 100 members, 30 BIST 30 members')
+        previous=json.loads((ROOT/'market-universe.json').read_text()) if (ROOT/'market-universe.json').exists() else {'groups':{'XU100':[]}}
+        old=set(previous['groups']['XU100']);new=set(data['groups']['XU100'])
+        data['changes']={'removed':sorted(old-new),'added':sorted(new-old)}
+        save(data)
+        for name,assignment in [('market-live','window.MARKET_LIVE='),('market-news','window.MARKET_NEWS=')]:
+            path=ROOT/(name+'.json')
+            if not path.exists():continue
+            bundle=json.loads(path.read_text())
+            allowed=new|{'XAUUSD','GRAMALTIN','BRENT','WTI','USDTRY','EURTRY','EURUSD'}
+            for field in ['assets','errors','disclosures','disclosureErrors']:
+                if isinstance(bundle.get(field),dict):bundle[field]={s:v for s,v in bundle[field].items() if s in allowed}
+            path.write_text(json.dumps(bundle,ensure_ascii=False,separators=(',',':'))+'\n')
+            (ROOT/(name+'.js')).write_text(assignment+json.dumps(bundle,ensure_ascii=False,separators=(',',':'))+';\n')
+        print('Removed:',data['changes']['removed'],'Added:',data['changes']['added']);print('KAP: 100 BIST 100 members, 30 BIST 30 members')
     except Exception as exc:
         print('KAP refresh failed; saved membership retained:',str(exc))
         if not (ROOT/'market-universe.json').exists():raise

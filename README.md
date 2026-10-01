@@ -40,3 +40,9 @@ Yerel `file://` açılışında paketlenmiş JS verileri kullanılır. Otomatik 
 Ana sayfa alınabilir, teyit bekleyen ve verisi sınırlı gruplara ayrı liste adresleriyle bağlanır. Adres içindeki `#varlik/THYAO` seçili varlığı sayfa yenilemede korur. Teknik sıralama, piyasa hareketleri ve mini eğilim grafikleri mevcut fiyat serisinden hesaplanır.
 
 Cloudflare Worker kurulumu `backend/README.md` içinde. Yeni kaynak düğmesi dışarı yönlendirmez: Worker üzerinden kaynak verisini alır ve analizi yeniden hesaplar. API adresi `market-config.js` içinde yapılandırılır; bağlantı kurulmadan düğme bunu açıkça bildirir. Kaynak hataları varlık bazında gösterilir. ALTIN.S1 Yahoo Finance tarafından sağlanmadığı için kaynak hatası ve eski veri uyarısı korunur.
+
+## Teknik karar mantığı
+
+Dirence yakınlık ve RSI 70 üzeri tek başına alım reddi üretmez. Güçlü trend, kırılım adayı, hacim destekli kırılım ve başarısız kırılım ayrı değerlendirilir. Yatay eşikler son mum hariç önceki 20 bardan, hacim oranı da son mum hariç önceki 20 barın tam hacim kayıtlarından hesaplanır. Karar için en az 50 bar gerekir. RSI puanı güçlü trendde yüksek momentumu cezalandırmaz. Kırılım hacim eşiği 1,2 kattır; aralık sıkışması son 5 bar / önceki 15 bar oranının 0,75 altında olmasıdır. Bunlar test edilerek kalibre edilmiş olasılıklar değildir.
+
+Her karar yukarı ve aşağı senaryoyu, geçersizlik koşullarını ve teyit beklemenin fırsat maliyetini açıklar. Günlük son mum tamamlanmamış olabilir; görülen kırılım kesin kapanış teyidi değildir. Grafik yatay seviyeleri de son mumu dışlar; iki tepeye dayalı yükselen veya düşen direnç çizgisi görseldir ve yatay kırılım kararından ayrı değerlendirilir. Tahmin başarısının arttığı iddiası için yalnızca o tarihte mevcut verilerle geçmiş performans değerlendirmesi gerekir.

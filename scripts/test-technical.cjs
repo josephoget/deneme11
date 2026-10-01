@@ -1,0 +1,17 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
+const source=fs.readFileSync(require('path').join(__dirname,'../market.js'),'utf8');
+const context=vm.createContext({STOCKS:['TEST'],formatPrice:(_,v)=>String(v),fmt:v=>String(v),dateText:v=>v});
+vm.runInContext(source.slice(source.indexOf('function decision('),source.indexOf('const METRIC_INFO=')),context);
+const a=Array.from({length:60},(_,i)=>({date:'2026-10-01',o:100+i,c:100+i,h:101+i,l:99+i,v:100}));
+const build=last=>({a:[...a,last],last,fresh:true,e:{source:'test'},rs:Array(61).fill(80),m20:Array(60).fill(145).concat(146),m50:Array(61).fill(130),mac:Array(61).fill(2),sig:Array(61).fill(1),A:3,score:60,volratio:1.5});
+let x=build({date:'2026-10-01',o:160,c:163,h:168,l:159,v:150});
+assert.equal(context.decision(x,'TEST').label,'ALINABİLİR','High RSI and current high do not veto prior-resistance breakout');
+assert.ok(context.decision(x,'TEST').reasons.some(r=>r.includes('direnci 160')));
+x=build({date:'2026-10-01',o:159,c:159,h:160,l:158,v:150});
+assert.ok(context.decision(x,'TEST').reasons.some(r=>r.includes('KIRILIM ADAYI')));
+x=build({date:'2026-10-01',o:160,c:159,h:165,l:158,v:150});
+assert.ok(context.decision(x,'TEST').reasons.some(r=>r.includes('BAŞARISIZ KIRILIM')));
+x.fresh=false;assert.equal(context.decision(x,'TEST').label,'KARAR VERİLEMEZ');
+x.fresh=true;x.volratio=null;assert.equal(context.decision(x,'TEST').label,'KARAR VERİLEMEZ');
+assert.equal(context.decision(x,'GRAMALTIN').label,'KARAR VERİLEMEZ');
+console.log('Breakout, high RSI, near resistance, failed breakout, stale/missing volume and derived asset checks passed.');

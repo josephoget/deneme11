@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Refresh KAP membership
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 7,13 * * 1-5'
+        if: github.event_name != 'push'
         run: python scripts/refresh_universe.py
       - name: Fetch delayed market data
         if: github.event_name != 'push'
