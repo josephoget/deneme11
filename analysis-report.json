@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-10-05T15:35:18.615Z",
-  "snapshotAt": "2026-10-05T15:32:25+00:00",
+  "generatedAt": "2026-10-05T16:11:43.635Z",
+  "snapshotAt": "2026-10-05T16:08:23+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -27856,9 +27856,9 @@
       "buyHoldLater": 0.35127599684388344
     },
     "KORDS": {
-      "signature": "47c8702a",
+      "signature": "a8e9b33d",
       "lastDate": "2026-10-05",
-      "bars": 1260,
+      "bars": 1261,
       "full": {
         "trades": [
           {
@@ -28150,10 +28150,10 @@
           {
             "signalDate": "2026-10-02",
             "entryDate": "2026-10-05",
-            "entryIndex": 1259,
+            "entryIndex": 1260,
             "entry": 3.06,
-            "stop": 2.674410828687613,
-            "target": 3.771178342624774,
+            "stop": 2.674973560244898,
+            "target": 3.770052879510204,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-10-05",
             "exit": 3.08,
@@ -28280,10 +28280,10 @@
           {
             "signalDate": "2026-10-02",
             "entryDate": "2026-10-05",
-            "entryIndex": 1259,
+            "entryIndex": 1260,
             "entry": 3.06,
-            "stop": 2.674410828687613,
-            "target": 3.771178342624774,
+            "stop": 2.674973560244898,
+            "target": 3.770052879510204,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-10-05",
             "exit": 3.08,
