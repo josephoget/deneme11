@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-10-15T17:19:27.669Z",
-  "snapshotAt": "2026-10-15T17:16:23+00:00",
+  "generatedAt": "2026-10-15T17:52:49.601Z",
+  "snapshotAt": "2026-10-15T17:48:08+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -571,7 +571,7 @@
       "buyHoldLater": 0.10892570988645023
     },
     "AGHOL": {
-      "signature": "321a931d",
+      "signature": "d63fef2d",
       "lastDate": "2026-10-15",
       "bars": 1254,
       "full": {
@@ -1023,7 +1023,7 @@
       "buyHoldLater": 0.11155912367435938
     },
     "AHGAZ": {
-      "signature": "27d83000",
+      "signature": "9e331732",
       "lastDate": "2026-10-15",
       "bars": 951,
       "full": {
@@ -2561,7 +2561,7 @@
       "buyHoldLater": 0.20758233226714262
     },
     "AKFYE": {
-      "signature": "8ac721dd",
+      "signature": "8f09b863",
       "lastDate": "2026-10-15",
       "bars": 898,
       "full": {
@@ -5221,7 +5221,7 @@
       "buyHoldLater": -0.26302485441149126
     },
     "ANHYT": {
-      "signature": "f1be41f8",
+      "signature": "f89e7e4",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -6372,7 +6372,7 @@
       "buyHoldLater": 0.1544358877805425
     },
     "ARCLK": {
-      "signature": "8ac47ab6",
+      "signature": "172a30d2",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -12924,7 +12924,7 @@
       "buyHoldLater": -0.1878641573537353
     },
     "CVKMD": {
-      "signature": "c2cf13dd",
+      "signature": "c4bf3cd1",
       "lastDate": "2026-10-15",
       "bars": 878,
       "full": {
@@ -15067,7 +15067,7 @@
       "buyHoldLater": 0.2922304192348475
     },
     "ECZYT": {
-      "signature": "b9d96d7d",
+      "signature": "4ca05bdb",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -28165,7 +28165,7 @@
       "buyHoldLater": -0.0890027620809769
     },
     "KRDMD": {
-      "signature": "fd165059",
+      "signature": "37630763",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -29986,7 +29986,7 @@
       "buyHoldLater": -0.009785822326790039
     },
     "MPARK": {
-      "signature": "ee4b8cc4",
+      "signature": "15d9b60e",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -30412,7 +30412,7 @@
       "buyHoldLater": 0.36144976234581194
     },
     "OBAMS": {
-      "signature": "aec89b54",
+      "signature": "6b81550f",
       "lastDate": "2026-10-15",
       "bars": 655,
       "full": {
@@ -32191,7 +32191,7 @@
       "buyHoldLater": -0.27754350454021526
     },
     "PETKM": {
-      "signature": "2499565f",
+      "signature": "6803f846",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -33095,7 +33095,7 @@
       "buyHoldLater": -0.5061937656793691
     },
     "RGYAS": {
-      "signature": "fdac1150",
+      "signature": "5f47deda",
       "lastDate": "2026-10-15",
       "bars": 616,
       "full": {
@@ -33973,7 +33973,7 @@
       "buyHoldLater": 0.6545151734747066
     },
     "SAHOL": {
-      "signature": "c8af8da6",
+      "signature": "29afc69b",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
@@ -34490,7 +34490,7 @@
       "buyHoldLater": 0.11123241104718673
     },
     "SASA": {
-      "signature": "3d811b71",
+      "signature": "29478791",
       "lastDate": "2026-10-15",
       "bars": 1254,
       "full": {
@@ -38493,7 +38493,7 @@
       "buyHoldLater": -0.13995254420955283
     },
     "TKFEN": {
-      "signature": "85b05326",
+      "signature": "600435",
       "lastDate": "2026-10-15",
       "bars": 1254,
       "full": {
@@ -41273,7 +41273,7 @@
       "buyHoldLater": 0.5128599231833115
     },
     "TRMET": {
-      "signature": "8c651076",
+      "signature": "33fca50b",
       "lastDate": "2026-10-15",
       "bars": 1253,
       "full": {
