@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-10-26T14:26:12.390Z",
-  "snapshotAt": "2026-10-26T14:22:16+00:00",
+  "generatedAt": "2026-10-26T19:47:15.474Z",
+  "snapshotAt": "2026-10-26T19:43:45+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -21,16 +21,16 @@
     "profitFactor": 1.199539632973172
   },
   "laterSummary": {
-    "count": 746,
-    "winRate": 0.41420911528150134,
-    "meanReturn": -0.0051407288325626055,
-    "profitFactor": 0.8405910978244601
+    "count": 745,
+    "winRate": 0.4147651006711409,
+    "meanReturn": -0.0050966821195800194,
+    "profitFactor": 0.8419193930787437
   },
   "assets": {
     "AEFES": {
-      "signature": "ad40a8d1",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "d6b27bfa",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -458,7 +458,7 @@
         "compoundedReturn": 0.33526670799001357,
         "closedTradeDrawdown": 0.17422979666081528,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -562,18 +562,18 @@
         "compoundedReturn": 0.03619127984056103,
         "closedTradeDrawdown": 0.06158344836569185,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": 0.01745285590276527
       },
-      "buyHoldLater": -0.048011228227531566
+      "buyHoldLater": -0.07207500557042412
     },
     "AGHOL": {
-      "signature": "d8def5ba",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "36d2bfad",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -923,7 +923,7 @@
         "compoundedReturn": 0.6276996107576567,
         "closedTradeDrawdown": 0.1790814055379094,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -1014,18 +1014,18 @@
         "compoundedReturn": -0.02783155446921226,
         "closedTradeDrawdown": 0.06344029909231996,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": 0.0040605094192027735
       },
-      "buyHoldLater": 0.00542735920237325
+      "buyHoldLater": -0.030156850090263143
     },
     "AHGAZ": {
-      "signature": "62a49b5d",
-      "lastDate": "2026-10-23",
-      "bars": 957,
+      "signature": "eba7e148",
+      "lastDate": "2026-10-26",
+      "bars": 958,
       "full": {
         "trades": [
           {
@@ -1284,7 +1284,7 @@
         "compoundedReturn": 0.08170369844855863,
         "closedTradeDrawdown": 0.13674070258955773,
         "startDate": "2023-03-23",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -1374,19 +1374,19 @@
         "profitFactor": 1.5802379705960088,
         "compoundedReturn": 0.05009195688541768,
         "closedTradeDrawdown": 0.050513457450256705,
-        "startDate": "2025-09-03",
-        "endDate": "2026-10-23"
+        "startDate": "2025-09-04",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": 0.016496774915171965
       },
-      "buyHoldLater": 0.22130872013667657
+      "buyHoldLater": 0.23197690652966418
     },
     "AKBNK": {
-      "signature": "f622ae4b",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "5f76edff",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -1775,7 +1775,7 @@
         "compoundedReturn": 1.3094581885094083,
         "closedTradeDrawdown": 0.1254933330287995,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -1930,19 +1930,19 @@
         "profitFactor": 2.527013419514245,
         "compoundedReturn": 0.23422672972478842,
         "closedTradeDrawdown": 0.10913110836227491,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.026115239635927823
       },
-      "buyHoldLater": 0.21574376425664088
+      "buyHoldLater": 0.3110675911504306
     },
     "AKCNS": {
-      "signature": "eadc185f",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "3b4547d1",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -2409,7 +2409,7 @@
         "compoundedReturn": -0.21981553013450406,
         "closedTradeDrawdown": 0.3437412281832214,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -2551,19 +2551,19 @@
         "profitFactor": 0.3992741386131409,
         "compoundedReturn": -0.23627893592942928,
         "closedTradeDrawdown": 0.23627893592942928,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.03303440377167978
       },
-      "buyHoldLater": 0.11112137073176998
+      "buyHoldLater": 0.10931869972673103
     },
     "AKFYE": {
-      "signature": "ddf7d9c5",
-      "lastDate": "2026-10-23",
-      "bars": 904,
+      "signature": "e24553b8",
+      "lastDate": "2026-10-26",
+      "bars": 905,
       "full": {
         "trades": [
           {
@@ -2900,7 +2900,7 @@
         "compoundedReturn": -0.36993996217772473,
         "closedTradeDrawdown": 0.4951839525903674,
         "startDate": "2023-06-12",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -3029,19 +3029,19 @@
         "profitFactor": 0.37142406824259816,
         "compoundedReturn": -0.2251417897587048,
         "closedTradeDrawdown": 0.2251417897587048,
-        "startDate": "2025-09-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-09-26",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": -0.04002499040691615
       },
-      "buyHoldLater": 0.24714550316177242
+      "buyHoldLater": 0.2718704019848517
     },
     "AKSA": {
-      "signature": "8de4bff0",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "ccc75432",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -3352,7 +3352,7 @@
         "compoundedReturn": 0.17796925732182034,
         "closedTradeDrawdown": 0.31363818485163786,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -3443,18 +3443,18 @@
         "compoundedReturn": -0.09677905088864525,
         "closedTradeDrawdown": 0.11466343503883392,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.020105811103795806
       },
-      "buyHoldLater": 0.021801019474994465
+      "buyHoldLater": 0.01584878052659633
     },
     "AKSEN": {
-      "signature": "e83a2b8e",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "1572ca05",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -3869,7 +3869,7 @@
         "compoundedReturn": 0.28757346043329,
         "closedTradeDrawdown": 0.23553922158488683,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -4024,19 +4024,19 @@
         "profitFactor": 1.9902981311707768,
         "compoundedReturn": 0.2505920709802669,
         "closedTradeDrawdown": 0.1365974979239426,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": 0.023637359556099826
       },
-      "buyHoldLater": 0.8492059953898696
+      "buyHoldLater": 1.0152081292029367
     },
     "ALARK": {
-      "signature": "6c9e6489",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "616e0e84",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -4386,7 +4386,7 @@
         "compoundedReturn": 0.16613801628863012,
         "closedTradeDrawdown": 0.4001706577771028,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -4528,19 +4528,19 @@
         "profitFactor": 0.20062887734955104,
         "compoundedReturn": -0.35394721268738927,
         "closedTradeDrawdown": 0.3557763267608387,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.0705696108882213
       },
-      "buyHoldLater": 0.004936352197075555
+      "buyHoldLater": 0.02350197517465058
     },
     "ALBRK": {
-      "signature": "bcb6aa3d",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "84dd0bba",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -4877,7 +4877,7 @@
         "compoundedReturn": -0.08454379917914456,
         "closedTradeDrawdown": 0.28493757447448953,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -4967,19 +4967,19 @@
         "profitFactor": 1.6691646333718306,
         "compoundedReturn": 0.059034448570158604,
         "closedTradeDrawdown": 0.09986444223851776,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": 0.014900693967130415
       },
-      "buyHoldLater": 0.29577737728426623
+      "buyHoldLater": 0.3198733252449346
     },
     "ALTNY": {
-      "signature": "c0d5ccc4",
-      "lastDate": "2026-10-23",
-      "bars": 612,
+      "signature": "9f6823f7",
+      "lastDate": "2026-10-26",
+      "bars": 613,
       "full": {
         "trades": [
           {
@@ -5121,23 +5121,10 @@
         "compoundedReturn": -0.4332383265466576,
         "closedTradeDrawdown": 0.4332383265466576,
         "startDate": "2024-08-13",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
-          {
-            "signalDate": "2026-01-29",
-            "entryDate": "2026-01-30",
-            "entryIndex": 429,
-            "entry": 16.9,
-            "stop": 16.29390015713042,
-            "target": 18.049999,
-            "setup": "TREND İÇİ TOPARLANMA",
-            "exitDate": "2026-01-30",
-            "exit": 16.29390015713042,
-            "reason": "stop",
-            "netReturn": -0.039712742750229624
-          },
           {
             "signalDate": "2026-03-04",
             "entryDate": "2026-03-05",
@@ -5205,25 +5192,25 @@
           }
         ],
         "skipped": 1,
-        "count": 6,
+        "count": 5,
         "winRate": 0,
-        "meanReturn": -0.05123739033569321,
+        "meanReturn": -0.05354231985278592,
         "profitFactor": 0,
-        "compoundedReturn": -0.27187922707841794,
-        "closedTradeDrawdown": 0.27187922707841794,
-        "startDate": "2026-01-29",
-        "endDate": "2026-10-23"
+        "compoundedReturn": -0.24176774457374883,
+        "closedTradeDrawdown": 0.24176774457374883,
+        "startDate": "2026-01-30",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.05732062419113295
       },
-      "buyHoldLater": -0.38589330215309015
+      "buyHoldLater": -0.3620660128081349
     },
     "ANHYT": {
-      "signature": "76022926",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "2514824c",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -5703,7 +5690,7 @@
         "compoundedReturn": -0.5801754437168118,
         "closedTradeDrawdown": 0.6008357644322756,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -5845,19 +5832,19 @@
         "profitFactor": 0.33773984786865674,
         "compoundedReturn": -0.2668349895297467,
         "closedTradeDrawdown": 0.30291535697603367,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
         "meanReturn": -0.02642418961897461
       },
-      "buyHoldLater": 0.07689030573577038
+      "buyHoldLater": 0.09572750563428678
     },
     "ANSGR": {
-      "signature": "12ec5451",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "f33e2d00",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -6233,7 +6220,7 @@
         "compoundedReturn": 1.2767508974660018,
         "closedTradeDrawdown": 0.16240018213094265,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -6324,18 +6311,18 @@
         "compoundedReturn": 0.1201926033075138,
         "closedTradeDrawdown": 0.0353815036385694,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": 0.03723572373811429
       },
-      "buyHoldLater": -0.04383233532934139
+      "buyHoldLater": -0.07689865226319692
     },
     "ARCLK": {
-      "signature": "e33e7539",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "7f4b5e64",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -6672,7 +6659,7 @@
         "compoundedReturn": -0.10262133729183054,
         "closedTradeDrawdown": 0.29777827115374245,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -6762,19 +6749,19 @@
         "profitFactor": 1.2627884758062782,
         "compoundedReturn": 0.02279677503899502,
         "closedTradeDrawdown": 0.07569026551334013,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.0010590221672281408
       },
-      "buyHoldLater": -0.4174986256666994
+      "buyHoldLater": -0.41738167574699025
     },
     "ASELS": {
-      "signature": "7294dede",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "73c916f0",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -7254,7 +7241,7 @@
         "compoundedReturn": 2.076919927528281,
         "closedTradeDrawdown": 0.15787159902414782,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -7357,19 +7344,19 @@
         "profitFactor": 15.390858397587586,
         "compoundedReturn": 0.6565663881171442,
         "closedTradeDrawdown": 0.03690607291164805,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.0720135131823748
       },
-      "buyHoldLater": 1.4790183443721605
+      "buyHoldLater": 1.4073785007678756
     },
     "ASTOR": {
-      "signature": "724f0de1",
-      "lastDate": "2026-10-23",
-      "bars": 940,
+      "signature": "a68e5f31",
+      "lastDate": "2026-10-26",
+      "bars": 941,
       "full": {
         "trades": [
           {
@@ -7706,7 +7693,7 @@
         "compoundedReturn": 1.2762785559663579,
         "closedTradeDrawdown": 0.18962395767118423,
         "startDate": "2023-04-17",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -7810,18 +7797,18 @@
         "compoundedReturn": 0.42639370191616477,
         "closedTradeDrawdown": 0.060639255457030306,
         "startDate": "2025-09-11",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.05241795402814194
       },
-      "buyHoldLater": 0.27725493103207555
+      "buyHoldLater": 0.4044429774960474
     },
     "AYGAZ": {
-      "signature": "81b66103",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "3050c60e",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -8210,7 +8197,7 @@
         "compoundedReturn": 1.3528888331443585,
         "closedTradeDrawdown": 0.21348459182075952,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -8339,19 +8326,19 @@
         "profitFactor": 235.65655146195613,
         "compoundedReturn": 0.6330917202753734,
         "closedTradeDrawdown": 0.002194167621435761,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.04371517497575322
       },
-      "buyHoldLater": 1.0266728728033998
+      "buyHoldLater": 1.0705267397816947
     },
     "BERA": {
-      "signature": "9b0b2a9e",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "f18799dc",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -8779,7 +8766,7 @@
         "compoundedReturn": -0.6551180048454575,
         "closedTradeDrawdown": 0.6747419606541286,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -8908,19 +8895,19 @@
         "profitFactor": 0.020536717336904136,
         "compoundedReturn": -0.40244452361057625,
         "closedTradeDrawdown": 0.40244452361057625,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.06266269115080685
       },
-      "buyHoldLater": -0.3661767374342224
+      "buyHoldLater": -0.3415651917641228
     },
     "BIMAS": {
-      "signature": "11abd606",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "1084105b",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -9387,7 +9374,7 @@
         "compoundedReturn": 0.4944560057832501,
         "closedTradeDrawdown": 0.19575354678899992,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -9517,18 +9504,18 @@
         "compoundedReturn": -0.15031228009533348,
         "closedTradeDrawdown": 0.15031228009533348,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.019669312079360894
       },
-      "buyHoldLater": 0.5876537523244112
+      "buyHoldLater": 0.5940384188887182
     },
     "BINHO": {
-      "signature": "2ae6e7f3",
-      "lastDate": "2026-10-23",
-      "bars": 647,
+      "signature": "2e92de67",
+      "lastDate": "2026-10-26",
+      "bars": 648,
       "full": {
         "trades": [
           {
@@ -9709,7 +9696,7 @@
         "compoundedReturn": -0.5703290240548273,
         "closedTradeDrawdown": 0.6034384363601072,
         "startDate": "2024-06-24",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -9799,19 +9786,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.3627830038809743,
         "closedTradeDrawdown": 0.3627830038809743,
-        "startDate": "2026-01-14",
-        "endDate": "2026-10-23"
+        "startDate": "2026-01-15",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.07880259226019429
       },
-      "buyHoldLater": -0.6155947564330798
+      "buyHoldLater": -0.6133639893209362
     },
     "BRSAN": {
-      "signature": "44590187",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "c8883015",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -10174,7 +10161,7 @@
         "compoundedReturn": 0.17914467498861075,
         "closedTradeDrawdown": 0.3190904473749401,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -10303,19 +10290,19 @@
         "profitFactor": 1.1022370429193635,
         "compoundedReturn": 0.003477592508844829,
         "closedTradeDrawdown": 0.1594016562083267,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.002161612386540742
       },
-      "buyHoldLater": 0.5353098680687405
+      "buyHoldLater": 0.5907926746250101
     },
     "BRYAT": {
-      "signature": "29ad22c0",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "70b7fdf",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -10704,7 +10691,7 @@
         "compoundedReturn": 0.07716468532424847,
         "closedTradeDrawdown": 0.29099207535090654,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -10813,26 +10800,26 @@
             "netReturn": 0.07467413037541659
           }
         ],
-        "skipped": 7,
+        "skipped": 6,
         "count": 8,
         "winRate": 0.375,
         "meanReturn": -0.0006495944839593898,
         "profitFactor": 0.9781906780048796,
         "compoundedReturn": -0.02048810440832949,
         "closedTradeDrawdown": 0.16619435163450713,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.015356624676146244
       },
-      "buyHoldLater": -0.4994530088758653
+      "buyHoldLater": -0.42729540918163667
     },
     "BTCIM": {
-      "signature": "6c6f7479",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "3c032892",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -11260,7 +11247,7 @@
         "compoundedReturn": 0.17849218662563637,
         "closedTradeDrawdown": 0.41154270521866076,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -11351,18 +11338,18 @@
         "compoundedReturn": -0.07164111787862604,
         "closedTradeDrawdown": 0.08208704962862512,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.010639713339448886
       },
-      "buyHoldLater": -0.7046059971312129
+      "buyHoldLater": -0.69892534322989
     },
     "CANTE": {
-      "signature": "3eb370a4",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "47aa7389",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -11725,7 +11712,7 @@
         "compoundedReturn": -0.37941589100134354,
         "closedTradeDrawdown": 0.45118867712333766,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -11829,7 +11816,7 @@
         "compoundedReturn": -0.15357793826937338,
         "closedTradeDrawdown": 0.2913121455094678,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
@@ -11838,9 +11825,9 @@
       "buyHoldLater": -0.4415446563520359
     },
     "CCOLA": {
-      "signature": "9a58b286",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "f0990a5d",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -12281,7 +12268,7 @@
         "compoundedReturn": 1.750739089901455,
         "closedTradeDrawdown": 0.17725646246704707,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -12398,18 +12385,18 @@
         "compoundedReturn": 0.09585434595462572,
         "closedTradeDrawdown": 0.17725646246704696,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.008102819727314877
       },
-      "buyHoldLater": 0.3864356689004014
+      "buyHoldLater": 0.36696059717260976
     },
     "CIMSA": {
-      "signature": "1f5d4f87",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "aa842f5d",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -12733,7 +12720,7 @@
         "compoundedReturn": -0.2077995042148456,
         "closedTradeDrawdown": 0.333316466585205,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -12784,19 +12771,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.20823236772736564,
         "closedTradeDrawdown": 0.20823236772736564,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.0779897759267227
       },
-      "buyHoldLater": -0.21327982378254529
+      "buyHoldLater": -0.2094975151420151
     },
     "CVKMD": {
-      "signature": "da67b5ee",
-      "lastDate": "2026-10-23",
-      "bars": 884,
+      "signature": "9f7afa6c",
+      "lastDate": "2026-10-26",
+      "bars": 885,
       "full": {
         "trades": [
           {
@@ -13081,7 +13068,7 @@
         "compoundedReturn": 0.04823469482819753,
         "closedTradeDrawdown": 0.4387343360328283,
         "startDate": "2023-07-13",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -13145,19 +13132,19 @@
         "profitFactor": 2.46253287022229,
         "compoundedReturn": 0.15454107488068236,
         "closedTradeDrawdown": 0.11295663580909487,
-        "startDate": "2025-10-03",
-        "endDate": "2026-10-23"
+        "startDate": "2025-10-06",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": 0.03714377599138166
       },
-      "buyHoldLater": -0.28507040540605155
+      "buyHoldLater": -0.2799872718331454
     },
     "CWENE": {
-      "signature": "5ddeebc9",
-      "lastDate": "2026-10-23",
-      "bars": 867,
+      "signature": "e19cd5c9",
+      "lastDate": "2026-10-26",
+      "bars": 868,
       "full": {
         "trades": [
           {
@@ -13364,22 +13351,22 @@
         "compoundedReturn": -0.6132141476389232,
         "closedTradeDrawdown": 0.6132141476389232,
         "startDate": "2023-08-07",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
           {
-            "signalDate": "2025-10-10",
-            "entryDate": "2025-10-13",
-            "entryIndex": 607,
-            "entry": 23.852581,
-            "stop": 22.307223798221663,
-            "target": 27.432323,
+            "signalDate": "2025-10-13",
+            "entryDate": "2025-10-14",
+            "entryIndex": 608,
+            "entry": 23.741295,
+            "stop": 22.16126206317202,
+            "target": 26.90136087365596,
             "setup": "TREND DEVAMI",
             "exitDate": "2025-10-14",
-            "exit": 22.307223798221663,
+            "exit": 22.16126206317202,
             "reason": "stop",
-            "netReturn": -0.06852122189141763
+            "netReturn": -0.07027843463705796
           },
           {
             "signalDate": "2025-11-26",
@@ -13489,23 +13476,23 @@
         "skipped": 6,
         "count": 9,
         "winRate": 0.1111111111111111,
-        "meanReturn": -0.05660212507389533,
-        "profitFactor": 0.15757416423849585,
-        "compoundedReturn": -0.4198629025694868,
-        "closedTradeDrawdown": 0.43136945980260644,
-        "startDate": "2025-10-10",
-        "endDate": "2026-10-23"
+        "meanReturn": -0.056797370934522036,
+        "profitFactor": 0.1571175960992255,
+        "compoundedReturn": -0.4209573175210478,
+        "closedTradeDrawdown": 0.43136945980260655,
+        "startDate": "2025-10-13",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
-        "meanReturn": -0.07927842300359438
+        "meanReturn": -0.07949719773713104
       },
-      "buyHoldLater": -0.38868012286689035
+      "buyHoldLater": -0.3707116751432876
     },
     "DOAS": {
-      "signature": "362be924",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "c5063da",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -13868,7 +13855,7 @@
         "compoundedReturn": 0.560220195448002,
         "closedTradeDrawdown": 0.19642741400493025,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -13945,19 +13932,19 @@
         "profitFactor": 1.3577828116027184,
         "compoundedReturn": 0.029915136994627334,
         "closedTradeDrawdown": 0.07658170724712898,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.012791974355975122
       },
-      "buyHoldLater": -0.3949830293459592
+      "buyHoldLater": -0.3715605937412645
     },
     "DOHOL": {
-      "signature": "ed504164",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "f41247e0",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -14307,7 +14294,7 @@
         "compoundedReturn": 0.25730919828894216,
         "closedTradeDrawdown": 0.23635519795339455,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -14384,19 +14371,19 @@
         "profitFactor": 1.2352366083400392,
         "compoundedReturn": 0.02145106494247817,
         "closedTradeDrawdown": 0.080803905942746,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": 0.02989430321446866
       },
-      "buyHoldLater": 0.019663111402195677
+      "buyHoldLater": 0.059349115008140885
     },
     "ECILC": {
-      "signature": "a0941799",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "6602a931",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -14772,7 +14759,7 @@
         "compoundedReturn": -0.01673083210583859,
         "closedTradeDrawdown": 0.4348470462555274,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -14914,19 +14901,19 @@
         "profitFactor": 1.4131157674963786,
         "compoundedReturn": 0.09443380560086934,
         "closedTradeDrawdown": 0.17900952399245462,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.014978000605923756
       },
-      "buyHoldLater": 0.09099152897678175
+      "buyHoldLater": 0.08242363482809667
     },
     "ECZYT": {
-      "signature": "21be82a2",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "8b554f63",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -15263,7 +15250,7 @@
         "compoundedReturn": -0.09343365615673882,
         "closedTradeDrawdown": 0.3383378849407853,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -15405,19 +15392,19 @@
         "profitFactor": 0.18679426005734776,
         "compoundedReturn": -0.31848383021801896,
         "closedTradeDrawdown": 0.3360229115064969,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.052877563884699996
       },
-      "buyHoldLater": -0.08182216438161938
+      "buyHoldLater": -0.08615427536050102
     },
     "EGEEN": {
-      "signature": "3682bfd4",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "52a8c006",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -15754,7 +15741,7 @@
         "compoundedReturn": 0.11782875749895716,
         "closedTradeDrawdown": 0.4867836708034309,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -15844,19 +15831,19 @@
         "profitFactor": 0.0732131095931197,
         "compoundedReturn": -0.2778269461308738,
         "closedTradeDrawdown": 0.29518209881471347,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.06060456255585078
       },
-      "buyHoldLater": -0.5998503251362155
+      "buyHoldLater": -0.5858449856607388
     },
     "EGGUB": {
-      "signature": "4c977878",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "7f070493",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -16258,7 +16245,7 @@
         "compoundedReturn": 0.24000712030432791,
         "closedTradeDrawdown": 0.19751077437170173,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -16387,19 +16374,19 @@
         "profitFactor": 1.169270187191433,
         "compoundedReturn": 0.017165114170829998,
         "closedTradeDrawdown": 0.1975107743717015,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": 0.024057068441799646
       },
-      "buyHoldLater": 0.1274868641886504
+      "buyHoldLater": 0.15832607655821418
     },
     "EKGYO": {
-      "signature": "bca307ef",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "9c5c54cb",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -16762,7 +16749,7 @@
         "compoundedReturn": 0.7096932219023571,
         "closedTradeDrawdown": 0.255949475092321,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -16878,19 +16865,19 @@
         "profitFactor": 2.3605820778230924,
         "compoundedReturn": 0.18194669910389716,
         "closedTradeDrawdown": 0.05016463283001249,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.020302185768923713
       },
-      "buyHoldLater": 0.41502970686340146
+      "buyHoldLater": 0.39773120425815023
     },
     "ENERY": {
-      "signature": "fe04737",
-      "lastDate": "2026-10-23",
-      "bars": 796,
+      "signature": "73f42940",
+      "lastDate": "2026-10-26",
+      "bars": 797,
       "full": {
         "trades": [
           {
@@ -17227,7 +17214,7 @@
         "compoundedReturn": -0.2409282729254727,
         "closedTradeDrawdown": 0.39723475007758813,
         "startDate": "2023-11-15",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -17331,18 +17318,18 @@
         "compoundedReturn": -0.20366267917515002,
         "closedTradeDrawdown": 0.2759798452383606,
         "startDate": "2025-11-12",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.03324370804011997
       },
-      "buyHoldLater": 0.29523331256806973
+      "buyHoldLater": 0.34492797843802836
     },
     "ENJSA": {
-      "signature": "c19ed86b",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "ca709b96",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -17666,7 +17653,7 @@
         "compoundedReturn": 0.4322311243549475,
         "closedTradeDrawdown": 0.19446961940356744,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -17808,19 +17795,19 @@
         "profitFactor": 4.035916150026105,
         "compoundedReturn": 0.2952142986571249,
         "closedTradeDrawdown": 0.040750462811131816,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
         "meanReturn": 0.02767220281511429
       },
-      "buyHoldLater": 0.9867368791995639
+      "buyHoldLater": 0.993800910791115
     },
     "ENKAI": {
-      "signature": "d61e719a",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "14ce0906",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -18131,7 +18118,7 @@
         "compoundedReturn": 0.0684113339308301,
         "closedTradeDrawdown": 0.18400522087054705,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -18195,19 +18182,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.12109698548038783,
         "closedTradeDrawdown": 0.12109698548038783,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.03286392972918958
       },
-      "buyHoldLater": 0.20752796749961377
+      "buyHoldLater": 0.17419999073727532
     },
     "ENTRA": {
-      "signature": "304eae7b",
-      "lastDate": "2026-10-23",
-      "bars": 637,
+      "signature": "5b25ba58",
+      "lastDate": "2026-10-26",
+      "bars": 638,
       "full": {
         "trades": [
           {
@@ -18361,7 +18348,7 @@
             "stop": 4.213992781410906,
             "target": 4.742014437178187,
             "setup": "DİRENÇ KIRILIMI",
-            "exitDate": "2026-10-23",
+            "exitDate": "2026-10-26",
             "exit": 4.42,
             "reason": "period-end",
             "netReturn": 0.007403956389280708
@@ -18375,7 +18362,7 @@
         "compoundedReturn": -0.41321832929495594,
         "closedTradeDrawdown": 0.4175309050719074,
         "startDate": "2024-07-08",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -18426,7 +18413,7 @@
             "stop": 4.213992781410906,
             "target": 4.742014437178187,
             "setup": "DİRENÇ KIRILIMI",
-            "exitDate": "2026-10-23",
+            "exitDate": "2026-10-26",
             "exit": 4.42,
             "reason": "period-end",
             "netReturn": 0.007403956389280708
@@ -18439,19 +18426,19 @@
         "profitFactor": 0.08298073381771662,
         "compoundedReturn": -0.13718664653664858,
         "closedTradeDrawdown": 0.1435279284033868,
-        "startDate": "2026-01-19",
-        "endDate": "2026-10-23"
+        "startDate": "2026-01-20",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.05283607598729708
       },
-      "buyHoldLater": -0.08321089166244111
+      "buyHoldLater": -0.07745537180217865
     },
     "EREGL": {
-      "signature": "f9b49036",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "7fd22356",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -18827,7 +18814,7 @@
         "compoundedReturn": -0.43732660907093,
         "closedTradeDrawdown": 0.43732660907093,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -18944,18 +18931,18 @@
         "compoundedReturn": -0.1502509530302959,
         "closedTradeDrawdown": 0.19716995948220384,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.034918093176454085
       },
-      "buyHoldLater": 0.38896082504012286
+      "buyHoldLater": 0.3564345711930066
     },
     "EUREN": {
-      "signature": "9dee4b46",
-      "lastDate": "2026-10-23",
-      "bars": 1097,
+      "signature": "1e06205d",
+      "lastDate": "2026-10-26",
+      "bars": 1098,
       "full": {
         "trades": [
           {
@@ -19253,7 +19240,7 @@
         "compoundedReturn": 1.0379273024300772,
         "closedTradeDrawdown": 0.24406026467085362,
         "startDate": "2022-09-05",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -19343,19 +19330,19 @@
         "profitFactor": 1.3066308204868262,
         "compoundedReturn": 0.05022053026577411,
         "closedTradeDrawdown": 0.2440602646708535,
-        "startDate": "2025-07-04",
-        "endDate": "2026-10-23"
+        "startDate": "2025-07-07",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.034255632178568224
       },
-      "buyHoldLater": -0.6208275616344724
+      "buyHoldLater": -0.586051128233551
     },
     "FENER": {
-      "signature": "ceeb3f00",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "502b05da",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -19627,7 +19614,7 @@
         "compoundedReturn": -0.6254372394632672,
         "closedTradeDrawdown": 0.7124214802687492,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -19704,19 +19691,19 @@
         "profitFactor": 0.6323448014563207,
         "compoundedReturn": -0.10758105689217357,
         "closedTradeDrawdown": 0.1544934762078276,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.010464270851496621
       },
-      "buyHoldLater": -0.9530700731890243
+      "buyHoldLater": -0.9521730454207021
     },
     "FROTO": {
-      "signature": "d77c2490",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "d489a39",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -20014,7 +20001,7 @@
         "compoundedReturn": 0.6222136875065658,
         "closedTradeDrawdown": 0.14094036333221216,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -20092,18 +20079,18 @@
         "compoundedReturn": 0.18482635249621215,
         "closedTradeDrawdown": 0.03925772591854215,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": 0.049846797505328944
       },
-      "buyHoldLater": -0.3029550893982127
+      "buyHoldLater": -0.271880132207577
     },
     "GARAN": {
-      "signature": "94411247",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "bd7d4890",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -20427,7 +20414,7 @@
         "compoundedReturn": 0.043051058877175974,
         "closedTradeDrawdown": 0.3115801119321363,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -20530,19 +20517,19 @@
         "profitFactor": 0.5196843845692428,
         "compoundedReturn": -0.11045890606003295,
         "closedTradeDrawdown": 0.1517338521349909,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": -0.03227517236554924
       },
-      "buyHoldLater": 0.22206607588915683
+      "buyHoldLater": 0.2676465922359399
     },
     "GLRMK": {
-      "signature": "9c8f01b",
-      "lastDate": "2026-10-23",
-      "bars": 443,
+      "signature": "307c94b7",
+      "lastDate": "2026-10-26",
+      "bars": 444,
       "full": {
         "trades": [
           {
@@ -20645,7 +20632,7 @@
         "compoundedReturn": 0.017064991821915232,
         "closedTradeDrawdown": 0.06950579954948066,
         "startDate": "2025-04-14",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -20671,18 +20658,18 @@
         "compoundedReturn": -0.06037215614492819,
         "closedTradeDrawdown": 0.06037215614492819,
         "startDate": "2026-04-13",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 0,
         "meanReturn": null
       },
-      "buyHoldLater": -0.5490414830084511
+      "buyHoldLater": -0.5397171698985008
     },
     "GLYHO": {
-      "signature": "6a276adf",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "f71ff799",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -21110,7 +21097,7 @@
         "compoundedReturn": 0.06764223509911793,
         "closedTradeDrawdown": 0.20257419108786912,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -21253,18 +21240,18 @@
         "compoundedReturn": -0.1692131366808859,
         "closedTradeDrawdown": 0.1692131366808859,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": -0.013872423072050166
       },
-      "buyHoldLater": 1.2155803500911846
+      "buyHoldLater": 1.3001334025474232
     },
     "GRSEL": {
-      "signature": "7fe76c7c",
-      "lastDate": "2026-10-23",
-      "bars": 1158,
+      "signature": "49c1d47e",
+      "lastDate": "2026-10-26",
+      "bars": 1159,
       "full": {
         "trades": [
           {
@@ -21653,7 +21640,7 @@
         "compoundedReturn": 1.692639488975062,
         "closedTradeDrawdown": 0.2463023116649491,
         "startDate": "2022-06-06",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -21756,19 +21743,19 @@
         "profitFactor": 0.23491821999031,
         "compoundedReturn": -0.2299294944044441,
         "closedTradeDrawdown": 0.2299294944044441,
-        "startDate": "2025-06-10",
-        "endDate": "2026-10-23"
+        "startDate": "2025-06-11",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.03298855736143065
       },
-      "buyHoldLater": -0.05921999213809481
+      "buyHoldLater": -0.038963403915737826
     },
     "GUBRF": {
-      "signature": "adff5041",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "da63541a",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -22248,7 +22235,7 @@
         "compoundedReturn": 0.3271477678918342,
         "closedTradeDrawdown": 0.32290375680974803,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -22351,19 +22338,19 @@
         "profitFactor": 1.5754550018493718,
         "compoundedReturn": 0.04455059469895817,
         "closedTradeDrawdown": 0.044473488198414235,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": 0.005368139954049417
       },
-      "buyHoldLater": -0.004825495452609463
+      "buyHoldLater": -0.05808555303186724
     },
     "GWIND": {
-      "signature": "ba411fa0",
-      "lastDate": "2026-10-23",
-      "bars": 1251,
+      "signature": "649494c",
+      "lastDate": "2026-10-26",
+      "bars": 1252,
       "full": {
         "trades": [
           {
@@ -22765,7 +22752,7 @@
         "compoundedReturn": -0.005527580460241044,
         "closedTradeDrawdown": 0.3361997810707429,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -22855,19 +22842,19 @@
         "profitFactor": 0.08374299718497223,
         "compoundedReturn": -0.2615123236987317,
         "closedTradeDrawdown": 0.28070177202396074,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": -0.05085483830139498
       },
-      "buyHoldLater": -0.3477878604952258
+      "buyHoldLater": -0.3191289421157685
     },
     "HALKB": {
-      "signature": "7bf85eaf",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "10ac7dad",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -23321,7 +23308,7 @@
         "compoundedReturn": 0.44572652488633957,
         "closedTradeDrawdown": 0.2484998173886781,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -23476,19 +23463,19 @@
         "profitFactor": 1.341087716413966,
         "compoundedReturn": 0.07475927750251876,
         "closedTradeDrawdown": 0.06974814930667073,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
         "meanReturn": -0.010381131145584033
       },
-      "buyHoldLater": 1.1378457230956416
+      "buyHoldLater": 1.1644019148949063
     },
     "HEKTS": {
-      "signature": "c0ee8b40",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "1c950ccd",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -23760,7 +23747,7 @@
         "compoundedReturn": -0.5041344304105035,
         "closedTradeDrawdown": 0.7143914941266543,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -23850,19 +23837,19 @@
         "profitFactor": 1.9058806674515023,
         "compoundedReturn": 0.13600608593405306,
         "closedTradeDrawdown": 0.16228598512814107,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.021479949491626255
       },
-      "buyHoldLater": -0.4685933012024731
+      "buyHoldLater": -0.46247188163355835
     },
     "ISCTR": {
-      "signature": "4ebca9a4",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "91b54afd",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -24303,7 +24290,7 @@
         "compoundedReturn": 0.13609782224266387,
         "closedTradeDrawdown": 0.34673715532307015,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -24445,19 +24432,19 @@
         "profitFactor": 1.5378153857650005,
         "compoundedReturn": 0.10878594957734866,
         "closedTradeDrawdown": 0.08483656917191906,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.020187984975956624
       },
-      "buyHoldLater": 0.12757368982964312
+      "buyHoldLater": 0.1820966006032465
     },
     "ISDMR": {
-      "signature": "12a8b6cd",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "24d52d9c",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -24833,7 +24820,7 @@
         "compoundedReturn": -0.14946687093621203,
         "closedTradeDrawdown": 0.37892486852090945,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -24975,19 +24962,19 @@
         "profitFactor": 1.485965896479079,
         "compoundedReturn": 0.0998527957216866,
         "closedTradeDrawdown": 0.09763025308851059,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": 0.030947352664032146
       },
-      "buyHoldLater": 0.4742611512727992
+      "buyHoldLater": 0.428372371004174
     },
     "ISMEN": {
-      "signature": "bb56dc0e",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "367a64cd",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -25298,7 +25285,7 @@
         "compoundedReturn": -0.11215663414900734,
         "closedTradeDrawdown": 0.3117486825480683,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -25401,19 +25388,19 @@
         "profitFactor": 0.25666684433767883,
         "compoundedReturn": -0.17590753204930576,
         "closedTradeDrawdown": 0.22497668162566287,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.009045278730324013
       },
-      "buyHoldLater": -0.313314534568772
+      "buyHoldLater": -0.311964744720847
     },
     "KARSN": {
-      "signature": "5a570e37",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "ed58cd99",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -25854,7 +25841,7 @@
         "compoundedReturn": -0.4055997810205584,
         "closedTradeDrawdown": 0.5676784421541987,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -26035,19 +26022,19 @@
         "profitFactor": 1.739311095451423,
         "compoundedReturn": 0.24495250774980626,
         "closedTradeDrawdown": 0.22126668086303625,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
         "meanReturn": 0.005245643053297264
       },
-      "buyHoldLater": -0.37829972557194014
+      "buyHoldLater": -0.3410297887637048
     },
     "KATMR": {
-      "signature": "8732af70",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "263e5038",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -26410,7 +26397,7 @@
         "compoundedReturn": 0.21285772341098785,
         "closedTradeDrawdown": 0.2750500747958189,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -26526,19 +26513,19 @@
         "profitFactor": 0.9112524668556634,
         "compoundedReturn": -0.059057946953528395,
         "closedTradeDrawdown": 0.2750500747958189,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.020877347529006544
       },
-      "buyHoldLater": -0.29768667792619885
+      "buyHoldLater": -0.2632269707161019
     },
     "KCAER": {
-      "signature": "dcfb9912",
-      "lastDate": "2026-10-23",
-      "bars": 1081,
+      "signature": "29f5d83d",
+      "lastDate": "2026-10-26",
+      "bars": 1082,
       "full": {
         "trades": [
           {
@@ -26888,7 +26875,7 @@
         "compoundedReturn": 0.5260090997741584,
         "closedTradeDrawdown": 0.29718709801439014,
         "startDate": "2022-09-27",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -27004,19 +26991,19 @@
         "profitFactor": 0.40941822158561536,
         "compoundedReturn": -0.21007191893645327,
         "closedTradeDrawdown": 0.21007191893645327,
-        "startDate": "2025-07-11",
-        "endDate": "2026-10-23"
+        "startDate": "2025-07-14",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.043826552763437956
       },
-      "buyHoldLater": -0.35860329673739133
+      "buyHoldLater": -0.33076040111968263
     },
     "KCHOL": {
-      "signature": "312b7cb9",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "d46433cb",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -27418,7 +27405,7 @@
         "compoundedReturn": 0.6797766285536126,
         "closedTradeDrawdown": 0.1716837959007803,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -27534,19 +27521,19 @@
         "profitFactor": 0.8611243500046737,
         "compoundedReturn": -0.045553437183318835,
         "closedTradeDrawdown": 0.09076518392109545,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.007360784252695973
       },
-      "buyHoldLater": 0.3528994839319415
+      "buyHoldLater": 0.39232897263313093
     },
     "KORDS": {
-      "signature": "853c38ba",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "bd3a8e99",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -27857,7 +27844,7 @@
         "compoundedReturn": -0.2439284433648743,
         "closedTradeDrawdown": 0.3797973932903921,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -27987,7 +27974,7 @@
         "compoundedReturn": -0.22424022859895953,
         "closedTradeDrawdown": 0.2541441153502739,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
@@ -27996,9 +27983,9 @@
       "buyHoldLater": -0.18213411138658142
     },
     "KRDMD": {
-      "signature": "ef88a990",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "9f07c319",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -28491,7 +28478,7 @@
         "compoundedReturn": -0.23793641190979686,
         "closedTradeDrawdown": 0.543597330898161,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -28685,19 +28672,19 @@
         "profitFactor": 3.7323484435127505,
         "compoundedReturn": 0.4894290173605105,
         "closedTradeDrawdown": 0.07454415679599469,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": 0.02740648506316792
       },
-      "buyHoldLater": 0.5577757776181835
+      "buyHoldLater": 0.4780267645360645
     },
     "LMKDC": {
-      "signature": "db2a253d",
-      "lastDate": "2026-10-23",
-      "bars": 666,
+      "signature": "5001e54",
+      "lastDate": "2026-10-26",
+      "bars": 667,
       "full": {
         "trades": [
           {
@@ -28852,7 +28839,7 @@
         "compoundedReturn": 0.35477314539411897,
         "closedTradeDrawdown": 0.049523752609067606,
         "startDate": "2024-05-23",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -28904,18 +28891,18 @@
         "compoundedReturn": 0.044352193820441865,
         "closedTradeDrawdown": 0.049523752609067606,
         "startDate": "2026-01-07",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": 0.012038034565320118
       },
-      "buyHoldLater": -0.3093116999312071
+      "buyHoldLater": -0.3008109208534374
     },
     "MAVI": {
-      "signature": "849a68d1",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "3141a5a3",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -29239,7 +29226,7 @@
         "compoundedReturn": 0.8651941080372769,
         "closedTradeDrawdown": 0.20615254284628015,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -29330,18 +29317,18 @@
         "compoundedReturn": 0.032696013082459396,
         "closedTradeDrawdown": 0.12440002755735002,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": 0.014824893587282006
       },
-      "buyHoldLater": 0.046166657983224724
+      "buyHoldLater": 0.021087321007580595
     },
     "MGROS": {
-      "signature": "950bb951",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "d85a1189",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -29691,7 +29678,7 @@
         "compoundedReturn": -0.1820054346833162,
         "closedTradeDrawdown": 0.3340498040558151,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -29807,19 +29794,19 @@
         "profitFactor": 0.9294348380276678,
         "compoundedReturn": -0.02855806555463869,
         "closedTradeDrawdown": 0.16531397305214413,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": -0.00413199140852281
       },
-      "buyHoldLater": -0.13044522992457164
+      "buyHoldLater": -0.13205018534359847
     },
     "MPARK": {
-      "signature": "73bc0176",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "2508cd92",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -30143,7 +30130,7 @@
         "compoundedReturn": 0.013107316066735208,
         "closedTradeDrawdown": 0.24224692067936948,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -30220,19 +30207,19 @@
         "profitFactor": 0.729419742761335,
         "compoundedReturn": -0.04930031242061961,
         "closedTradeDrawdown": 0.11952612742888569,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 2,
         "meanReturn": 0.03727927535406944
       },
-      "buyHoldLater": 0.15061220841898293
+      "buyHoldLater": 0.10659307316811995
     },
     "OBAMS": {
-      "signature": "fa4fd3df",
-      "lastDate": "2026-10-23",
-      "bars": 661,
+      "signature": "28ecc69f",
+      "lastDate": "2026-10-26",
+      "bars": 662,
       "full": {
         "trades": [
           {
@@ -30348,7 +30335,7 @@
         "compoundedReturn": -0.2929236129498486,
         "closedTradeDrawdown": 0.3489737269112235,
         "startDate": "2024-05-30",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -30399,19 +30386,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.22243046788220278,
         "closedTradeDrawdown": 0.22243046788220278,
-        "startDate": "2026-01-08",
-        "endDate": "2026-10-23"
+        "startDate": "2026-01-09",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.07726896464686199
       },
-      "buyHoldLater": -0.5973077767909157
+      "buyHoldLater": -0.5910508394974756
     },
     "ODAS": {
-      "signature": "2a0f34fa",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "26b46b60",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -30774,7 +30761,7 @@
         "compoundedReturn": 1.0012054868109295,
         "closedTradeDrawdown": 0.23377979070950872,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -30890,19 +30877,19 @@
         "profitFactor": 0.7448246824492506,
         "compoundedReturn": -0.08553123159437648,
         "closedTradeDrawdown": 0.163260878867721,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 8,
         "meanReturn": -0.01261459516215456
       },
-      "buyHoldLater": -0.09009093796689516
+      "buyHoldLater": -0.07599259312699913
     },
     "OTKAR": {
-      "signature": "c09529d3",
-      "lastDate": "2026-10-23",
-      "bars": 1250,
+      "signature": "9cd6f9bc",
+      "lastDate": "2026-10-26",
+      "bars": 1251,
       "full": {
         "trades": [
           {
@@ -31278,7 +31265,7 @@
         "compoundedReturn": 0.17786274315263273,
         "closedTradeDrawdown": 0.2587858599850068,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -31421,18 +31408,18 @@
         "compoundedReturn": 0.01140128134219176,
         "closedTradeDrawdown": 0.1747560387676761,
         "startDate": "2025-04-28",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.012866186061834473
       },
-      "buyHoldLater": -0.1970014996462104
+      "buyHoldLater": -0.22203344633484368
     },
     "OYAKC": {
-      "signature": "54c7dafe",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "b141a575",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -31860,7 +31847,7 @@
         "compoundedReturn": -0.2944554148916265,
         "closedTradeDrawdown": 0.46322363731268457,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -31938,18 +31925,18 @@
         "compoundedReturn": -0.11866935528855815,
         "closedTradeDrawdown": 0.12306976108840939,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.02737802068150048
       },
-      "buyHoldLater": -0.3228925870694064
+      "buyHoldLater": -0.30917248489651994
     },
     "PAHOL": {
-      "signature": "b85140af",
-      "lastDate": "2026-10-23",
-      "bars": 232,
+      "signature": "bcb50b4c",
+      "lastDate": "2026-10-26",
+      "bars": 233,
       "full": {
         "trades": [
           {
@@ -32000,7 +31987,7 @@
         "compoundedReturn": -0.1346547209472616,
         "closedTradeDrawdown": 0.1920294405237537,
         "startDate": "2026-02-13",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -32025,19 +32012,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.11465956974939007,
         "closedTradeDrawdown": 0.11465956974939007,
-        "startDate": "2026-07-20",
-        "endDate": "2026-10-23"
+        "startDate": "2026-07-21",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 1,
         "meanReturn": -0.11819389110225753
       },
-      "buyHoldLater": -0.3801069190290747
+      "buyHoldLater": -0.3870720098265008
     },
     "PETKM": {
-      "signature": "1fb71c10",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "ef5904ae",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -32452,7 +32439,7 @@
         "compoundedReturn": -0.2056455421138098,
         "closedTradeDrawdown": 0.34964549303192693,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -32594,19 +32581,19 @@
         "profitFactor": 0.43545030847442723,
         "compoundedReturn": -0.23561091812629842,
         "closedTradeDrawdown": 0.3016400863206571,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": -0.026911125416196596
       },
-      "buyHoldLater": 0.0681652728983837
+      "buyHoldLater": 0.07946547284635619
     },
     "PGSUS": {
-      "signature": "1e51996c",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "fdb5e7ae",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -32839,7 +32826,7 @@
         "compoundedReturn": -0.25835140729157724,
         "closedTradeDrawdown": 0.3939034898775128,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -32930,18 +32917,18 @@
         "compoundedReturn": -0.12766964394353997,
         "closedTradeDrawdown": 0.19458206138677447,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.04166334901852897
       },
-      "buyHoldLater": -0.4901387949031558
+      "buyHoldLater": -0.49054766107697356
     },
     "RGYAS": {
-      "signature": "b147d027",
-      "lastDate": "2026-10-23",
-      "bars": 622,
+      "signature": "b192b89e",
+      "lastDate": "2026-10-26",
+      "bars": 623,
       "full": {
         "trades": [
           {
@@ -33109,7 +33096,7 @@
         "compoundedReturn": -0.2442294935415692,
         "closedTradeDrawdown": 0.2593874915478218,
         "startDate": "2024-07-30",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -33160,19 +33147,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.16368438068392732,
         "closedTradeDrawdown": 0.16368438068392732,
-        "startDate": "2026-01-26",
-        "endDate": "2026-10-23"
+        "startDate": "2026-01-27",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 2,
         "meanReturn": -0.0745554367054106
       },
-      "buyHoldLater": 0.09988998180799769
+      "buyHoldLater": 0.07875132415437891
     },
     "RYSAS": {
-      "signature": "64ad70f1",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "3f922708",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -33652,7 +33639,7 @@
         "compoundedReturn": 0.1179954986154339,
         "closedTradeDrawdown": 0.32506808470480886,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -33808,18 +33795,18 @@
         "compoundedReturn": -0.10459259168014967,
         "closedTradeDrawdown": 0.2754313749026954,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": -0.022158534337824824
       },
-      "buyHoldLater": 0.575539191308376
+      "buyHoldLater": 0.6357843156553429
     },
     "SAHOL": {
-      "signature": "cb184ee8",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "7bf679bf",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -34195,7 +34182,7 @@
         "compoundedReturn": -0.022748660876335314,
         "closedTradeDrawdown": 0.30580518924968836,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -34324,19 +34311,19 @@
         "profitFactor": 1.9775066785797475,
         "compoundedReturn": 0.11197763510679493,
         "closedTradeDrawdown": 0.09177252699037064,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.005467456452579305
       },
-      "buyHoldLater": 0.10950956248140287
+      "buyHoldLater": 0.166676065633502
     },
     "SASA": {
-      "signature": "28fd472a",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "f7952a67",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -34660,7 +34647,7 @@
         "compoundedReturn": 0.8986738377136014,
         "closedTradeDrawdown": 0.16574086443396274,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -34725,18 +34712,18 @@
         "compoundedReturn": -0.09518503481444862,
         "closedTradeDrawdown": 0.12449948119655452,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 2,
         "meanReturn": -0.062191715894287236
       },
-      "buyHoldLater": -0.619662822326707
+      "buyHoldLater": -0.6291712517685393
     },
     "SISE": {
-      "signature": "ce1aa600",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "aebba435",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -35099,7 +35086,7 @@
         "compoundedReturn": -0.29647329161861935,
         "closedTradeDrawdown": 0.4006190663870931,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -35215,19 +35202,19 @@
         "profitFactor": 0.32351651515951435,
         "compoundedReturn": -0.17193400827703254,
         "closedTradeDrawdown": 0.184361732947817,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.01682225913175145
       },
-      "buyHoldLater": -0.04297352782010999
+      "buyHoldLater": -0.021066381636726583
     },
     "SNGYO": {
-      "signature": "a46bf3c9",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "643d5ffe",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -35694,7 +35681,7 @@
         "compoundedReturn": -0.1792664602979731,
         "closedTradeDrawdown": 0.4756914452134763,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -35798,18 +35785,18 @@
         "compoundedReturn": -0.23838665980882934,
         "closedTradeDrawdown": 0.23838665980882934,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.02798489236934818
       },
-      "buyHoldLater": -0.27781898438772
+      "buyHoldLater": -0.2838371595178224
     },
     "SOKM": {
-      "signature": "1f8b7772",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "f75334cd",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -36198,7 +36185,7 @@
         "compoundedReturn": 0.0039052974414337527,
         "closedTradeDrawdown": 0.30796241528534063,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -36366,19 +36353,19 @@
         "profitFactor": 1.2893457288659045,
         "compoundedReturn": 0.053190628719786526,
         "closedTradeDrawdown": 0.12935915000510478,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.0010546226037136952
       },
-      "buyHoldLater": 0.4437086657289504
+      "buyHoldLater": 0.4808997141565339
     },
     "TABGD": {
-      "signature": "ed3ce3e3",
-      "lastDate": "2026-10-23",
-      "bars": 750,
+      "signature": "7eea8275",
+      "lastDate": "2026-10-26",
+      "bars": 751,
       "full": {
         "trades": [
           {
@@ -36611,7 +36598,7 @@
         "compoundedReturn": 0.09272845945170105,
         "closedTradeDrawdown": 0.11047746256919899,
         "startDate": "2024-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -36689,18 +36676,18 @@
         "compoundedReturn": -0.021265633512344118,
         "closedTradeDrawdown": 0.043796926570432104,
         "startDate": "2025-12-02",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 2,
         "meanReturn": -0.008336482127886125
       },
-      "buyHoldLater": -0.13604195678326614
+      "buyHoldLater": -0.1815608331391515
     },
     "TAVHL": {
-      "signature": "3df00790",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "f85d4326",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -37102,7 +37089,7 @@
         "compoundedReturn": 0.23472901496448229,
         "closedTradeDrawdown": 0.20587582342690314,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -37218,19 +37205,19 @@
         "profitFactor": 0.8385871090368329,
         "compoundedReturn": -0.05771860448591437,
         "closedTradeDrawdown": 0.20587582342690303,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 7,
         "meanReturn": -0.008503490664512439
       },
-      "buyHoldLater": 0.1226801745316124
+      "buyHoldLater": 0.15658443461660543
     },
     "TCELL": {
-      "signature": "a15636c8",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "5716b2c9",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -37580,7 +37567,7 @@
         "compoundedReturn": 0.1394409466499642,
         "closedTradeDrawdown": 0.27280900436607936,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -37644,19 +37631,19 @@
         "profitFactor": 0.7160952122914203,
         "compoundedReturn": -0.03556857981790995,
         "closedTradeDrawdown": 0.10483706267111492,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 0,
         "meanReturn": null
       },
-      "buyHoldLater": -0.020836711282761655
+      "buyHoldLater": -0.002336578963955782
     },
     "TCKRC": {
-      "signature": "4c1472e",
-      "lastDate": "2026-10-23",
-      "bars": 544,
+      "signature": "b03ecd16",
+      "lastDate": "2026-10-26",
+      "bars": 545,
       "full": {
         "trades": [
           {
@@ -37876,7 +37863,7 @@
         "compoundedReturn": 0.30397758220736226,
         "closedTradeDrawdown": 0.22093113994144808,
         "startDate": "2024-11-19",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -37927,19 +37914,19 @@
         "profitFactor": 1.3794058363919137,
         "compoundedReturn": 0.031198666611293335,
         "closedTradeDrawdown": 0.0663043046868299,
-        "startDate": "2026-02-26",
-        "endDate": "2026-10-23"
+        "startDate": "2026-02-27",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 1,
         "meanReturn": 0.1774016248156467
       },
-      "buyHoldLater": 0.05916676324758119
+      "buyHoldLater": 0.25722622866656675
     },
     "THYAO": {
-      "signature": "e2facbf6",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "29e79743",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -38237,7 +38224,7 @@
         "compoundedReturn": 1.111476217360016,
         "closedTradeDrawdown": 0.12121969405224164,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -38301,19 +38288,19 @@
         "profitFactor": 2.7495127898008125,
         "compoundedReturn": 0.10339450318767596,
         "closedTradeDrawdown": 0.06098837723386985,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 2,
         "meanReturn": 0.0023987029974369967
       },
-      "buyHoldLater": -0.19191805069107082
+      "buyHoldLater": -0.1580390773281587
     },
     "TKFEN": {
-      "signature": "375bd63",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "a21bc50c",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -38663,7 +38650,7 @@
         "compoundedReturn": 0.9997087790501429,
         "closedTradeDrawdown": 0.21380376872565576,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -38767,18 +38754,18 @@
         "compoundedReturn": 0.02813935744474061,
         "closedTradeDrawdown": 0.178730547427426,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 6,
         "meanReturn": -0.011484506399576211
       },
-      "buyHoldLater": 0.2915593080276593
+      "buyHoldLater": 0.32037551778454376
     },
     "TOASO": {
-      "signature": "cfedf345",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "2c79806d",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -39167,7 +39154,7 @@
         "compoundedReturn": -0.09796437105064615,
         "closedTradeDrawdown": 0.44195187560561455,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -39270,19 +39257,19 @@
         "profitFactor": 0.7162004675268507,
         "compoundedReturn": -0.08489933763072632,
         "closedTradeDrawdown": 0.11522259476084473,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.027281289418081767
       },
-      "buyHoldLater": 0.09163651733992029
+      "buyHoldLater": 0.10315431255670493
     },
     "TRALT": {
-      "signature": "74fda73e",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "b9d3ba5d",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -39684,7 +39671,7 @@
         "compoundedReturn": 0.13574625316063615,
         "closedTradeDrawdown": 0.4979843558986483,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -39826,19 +39813,19 @@
         "profitFactor": 0.849286605182702,
         "compoundedReturn": -0.13103436504445676,
         "closedTradeDrawdown": 0.2608277956709647,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": -0.007223142097027556
       },
-      "buyHoldLater": 0.3427053994786122
+      "buyHoldLater": 0.35612080023146087
     },
     "TRENJ": {
-      "signature": "a2f22745",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "6373b594",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -40266,7 +40253,7 @@
         "compoundedReturn": -0.2155400004228889,
         "closedTradeDrawdown": 0.4521288403175734,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -40408,19 +40395,19 @@
         "profitFactor": 0.5396410677669966,
         "compoundedReturn": -0.2083020230537237,
         "closedTradeDrawdown": 0.24689409289830322,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.018005035948247892
       },
-      "buyHoldLater": 0.08092775797060292
+      "buyHoldLater": 0.071791200208279
     },
     "TRGYO": {
-      "signature": "b82125d3",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "e3250972",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -40900,7 +40887,7 @@
         "compoundedReturn": -0.15368055842698403,
         "closedTradeDrawdown": 0.3349204201321684,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -41055,19 +41042,19 @@
         "profitFactor": 0.9377245605760756,
         "compoundedReturn": -0.021341427386127987,
         "closedTradeDrawdown": 0.09016080088904188,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 10,
         "meanReturn": 0.00037427712967105233
       },
-      "buyHoldLater": 0.38832617104853284
+      "buyHoldLater": 0.3722953892547167
     },
     "TRMET": {
-      "signature": "64c1be30",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "1ff600bd",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -41534,7 +41521,7 @@
         "compoundedReturn": 1.0591789670376088,
         "closedTradeDrawdown": 0.21023420909998947,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -41676,19 +41663,19 @@
         "profitFactor": 2.8482842386281266,
         "compoundedReturn": 0.37364619276208977,
         "closedTradeDrawdown": 0.06742865796454844,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": 0.04708398930596966
       },
-      "buyHoldLater": 0.10834774900141553
+      "buyHoldLater": 0.10728761261763675
     },
     "TSKB": {
-      "signature": "54a7b56a",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "4ff7347",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -42103,7 +42090,7 @@
         "compoundedReturn": -0.14434733467356475,
         "closedTradeDrawdown": 0.41443016999884974,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -42206,19 +42193,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.2840805958190532,
         "closedTradeDrawdown": 0.2840805958190532,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.05392151961425801
       },
-      "buyHoldLater": -0.175844970541292
+      "buyHoldLater": -0.12957983160739628
     },
     "TTKOM": {
-      "signature": "38d13055",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "f20fd9da",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -42646,7 +42633,7 @@
         "compoundedReturn": -0.24978184785435753,
         "closedTradeDrawdown": 0.3673240794458501,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -42775,19 +42762,19 @@
         "profitFactor": 0.5919877918391718,
         "compoundedReturn": -0.13167107934283162,
         "closedTradeDrawdown": 0.19046049530014963,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.02766913452419766
       },
-      "buyHoldLater": -0.15238058639413787
+      "buyHoldLater": -0.13918428559454854
     },
     "TTRAK": {
-      "signature": "2e246fb4",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "57d958d2",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -43137,7 +43124,7 @@
         "compoundedReturn": 0.0960222057911837,
         "closedTradeDrawdown": 0.227867519588404,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -43227,19 +43214,19 @@
         "profitFactor": 0.6282922756576711,
         "compoundedReturn": -0.0575920888915048,
         "closedTradeDrawdown": 0.12214680913222864,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.041532187371197314
       },
-      "buyHoldLater": -0.44718424785648836
+      "buyHoldLater": -0.4492567008263183
     },
     "TUKAS": {
-      "signature": "dbb488e",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "8a5154e0",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -43667,7 +43654,7 @@
         "compoundedReturn": 0.7886648471950808,
         "closedTradeDrawdown": 0.21134602729824148,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -43849,18 +43836,18 @@
         "compoundedReturn": 0.14261194578961134,
         "closedTradeDrawdown": 0.19257275215773417,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 10,
         "meanReturn": 0.015006809285113309
       },
-      "buyHoldLater": -0.26192237039864485
+      "buyHoldLater": -0.2738268482954409
     },
     "TUPRS": {
-      "signature": "3461f7ef",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "8324dff5",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -44223,7 +44210,7 @@
         "compoundedReturn": 0.5453677995572717,
         "closedTradeDrawdown": 0.243024563638769,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -44404,19 +44391,19 @@
         "profitFactor": 4.626347245840333,
         "compoundedReturn": 0.6113317161487735,
         "closedTradeDrawdown": 0.08402898478135423,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 9,
         "meanReturn": 0.019689482654670163
       },
-      "buyHoldLater": 1.8698872911276583
+      "buyHoldLater": 1.9420170526386276
     },
     "TURSG": {
-      "signature": "404a2537",
-      "lastDate": "2026-10-23",
-      "bars": 1253,
+      "signature": "9123e90f",
+      "lastDate": "2026-10-26",
+      "bars": 1254,
       "full": {
         "trades": [
           {
@@ -44740,7 +44727,7 @@
         "compoundedReturn": 0.49611152922757396,
         "closedTradeDrawdown": 0.18565404958609344,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -44805,18 +44792,18 @@
         "compoundedReturn": -0.06822953418064781,
         "closedTradeDrawdown": 0.14411527101338872,
         "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 3,
         "meanReturn": -0.08971558439043836
       },
-      "buyHoldLater": -0.06561230744360547
+      "buyHoldLater": -0.1530010844452827
     },
     "ULKER": {
-      "signature": "9f1ceb50",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "e852686d",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -45192,7 +45179,7 @@
         "compoundedReturn": 0.4484196273123584,
         "closedTradeDrawdown": 0.3751068045536068,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -45308,19 +45295,19 @@
         "profitFactor": 0.2405553913739954,
         "compoundedReturn": -0.22399737540181963,
         "closedTradeDrawdown": 0.22399737540181963,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.04833968831728861
       },
-      "buyHoldLater": -0.3263332624348142
+      "buyHoldLater": -0.3183317708142158
     },
     "VAKBN": {
-      "signature": "8697e7ac",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "853b7f77",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -45657,7 +45644,7 @@
         "compoundedReturn": -0.4212702379801936,
         "closedTradeDrawdown": 0.4212702379801936,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -45747,19 +45734,19 @@
         "profitFactor": 0,
         "compoundedReturn": -0.248625532550096,
         "closedTradeDrawdown": 0.248625532550096,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.044766542458161335
       },
-      "buyHoldLater": 0.4109331015516078
+      "buyHoldLater": 0.4259734799850017
     },
     "VESTL": {
-      "signature": "a9c59328",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "798d7134",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -46083,7 +46070,7 @@
         "compoundedReturn": 0.27125607214927916,
         "closedTradeDrawdown": 0.34399857381862775,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -46186,19 +46173,19 @@
         "profitFactor": 0.0006947585220425772,
         "compoundedReturn": -0.2573594412772777,
         "closedTradeDrawdown": 0.2573594412772777,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 4,
         "meanReturn": -0.03774897148861425
       },
-      "buyHoldLater": -0.7105770391950714
+      "buyHoldLater": -0.7185494933881449
     },
     "YKBNK": {
-      "signature": "7781225d",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "27a031fa",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -46613,7 +46600,7 @@
         "compoundedReturn": 0.11406346661558775,
         "closedTradeDrawdown": 0.30383134732345884,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -46768,19 +46755,19 @@
         "profitFactor": 1.890440113802686,
         "compoundedReturn": 0.14816109874902605,
         "closedTradeDrawdown": 0.08816170475949503,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 10,
         "meanReturn": 0.0057367175053642085
       },
-      "buyHoldLater": 0.45744959615096814
+      "buyHoldLater": 0.5795100065356014
     },
     "ZOREN": {
-      "signature": "ef959b64",
-      "lastDate": "2026-10-23",
-      "bars": 1252,
+      "signature": "88b12fe7",
+      "lastDate": "2026-10-26",
+      "bars": 1253,
       "full": {
         "trades": [
           {
@@ -47156,7 +47143,7 @@
         "compoundedReturn": -0.23120730302061954,
         "closedTradeDrawdown": 0.4655185514678064,
         "startDate": "2022-01-18",
-        "endDate": "2026-10-23"
+        "endDate": "2026-10-26"
       },
       "later": {
         "trades": [
@@ -47285,14 +47272,14 @@
         "profitFactor": 0.44757084600711783,
         "compoundedReturn": -0.17876311174916215,
         "closedTradeDrawdown": 0.1973859577160616,
-        "startDate": "2025-04-25",
-        "endDate": "2026-10-23"
+        "startDate": "2025-04-28",
+        "endDate": "2026-10-26"
       },
       "stress": {
         "count": 5,
         "meanReturn": -0.02714839442726673
       },
-      "buyHoldLater": -0.5968539112251687
+      "buyHoldLater": -0.6155227538843286
     }
   }
 }
