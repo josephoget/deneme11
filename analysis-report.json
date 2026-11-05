@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-11-05T15:38:49.061Z",
-  "snapshotAt": "2026-11-05T15:34:08+00:00",
+  "generatedAt": "2026-11-05T21:31:41.548Z",
+  "snapshotAt": "2026-11-05T21:28:10+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -17,14 +17,14 @@
   "summary": {
     "count": 2612,
     "winRate": 0.4777947932618683,
-    "meanReturn": 0.00659143912958835,
-    "profitFactor": 1.2114835592156257
+    "meanReturn": 0.006591439112817691,
+    "profitFactor": 1.2114835586775463
   },
   "laterSummary": {
     "count": 751,
     "winRate": 0.4181091877496671,
-    "meanReturn": -0.00482327412857802,
-    "profitFactor": 0.8496440214814973
+    "meanReturn": -0.004823274186906851,
+    "profitFactor": 0.849644019663212
   },
   "assets": {
     "AEFES": {
@@ -597,7 +597,7 @@
       "buyHoldLater": 0.11057539176965236
     },
     "AGHOL": {
-      "signature": "8281f4d8",
+      "signature": "da0b439d",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -949,17 +949,17 @@
             "target": 33.747291725757975,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 28.459999,
+            "exit": 28.46,
             "reason": "period-end",
-            "netReturn": 0.02407464702098694
+            "netReturn": 0.024074683003934227
           }
         ],
         "skipped": 17,
         "count": 27,
         "winRate": 0.5185185185185185,
-        "meanReturn": 0.022260769501902897,
-        "profitFactor": 1.9421227879465135,
-        "compoundedReturn": 0.6668807082699677,
+        "meanReturn": 0.02226077083460465,
+        "profitFactor": 1.9421228443492666,
+        "compoundedReturn": 0.6668807668392145,
         "closedTradeDrawdown": 0.17908140553790952,
         "startDate": "2022-01-27",
         "endDate": "2026-11-05"
@@ -1053,26 +1053,26 @@
             "target": 33.747291725757975,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 28.459999,
+            "exit": 28.46,
             "reason": "period-end",
-            "netReturn": 0.02407464702098694
+            "netReturn": 0.024074683003934227
           }
         ],
         "skipped": 8,
         "count": 7,
         "winRate": 0.42857142857142855,
-        "meanReturn": 0.00019258176720658517,
-        "profitFactor": 1.0109572766151225,
-        "compoundedReturn": -0.00442694229811702,
+        "meanReturn": 0.00019258690762762637,
+        "profitFactor": 1.010957569088372,
+        "compoundedReturn": -0.00442690731663109,
         "closedTradeDrawdown": 0.06344029909231996,
         "startDate": "2025-05-07",
         "endDate": "2026-11-05"
       },
       "stress": {
         "count": 4,
-        "meanReturn": 0.008042005073809533
+        "meanReturn": 0.00804201403363497
       },
-      "buyHoldLater": 0.0636542675249876
+      "buyHoldLater": 0.06365430489864554
     },
     "AHGAZ": {
       "signature": "c71362f1",
@@ -1436,7 +1436,7 @@
       "buyHoldLater": 0.3627712263010201
     },
     "AKBNK": {
-      "signature": "32cb7340",
+      "signature": "25fe4d72",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -1976,7 +1976,7 @@
         "count": 6,
         "meanReturn": 0.026115239635927823
       },
-      "buyHoldLater": 0.34131725162901083
+      "buyHoldLater": 0.34131731150924827
     },
     "AKCNS": {
       "signature": "736dcbe1",
@@ -3491,9 +3491,9 @@
       "buyHoldLater": 0.03785705899126124
     },
     "AKSEN": {
-      "signature": "5c4bba11",
-      "lastDate": "2026-11-05",
-      "bars": 1253,
+      "signature": "ebac5090",
+      "lastDate": "2026-11-04",
+      "bars": 1252,
       "full": {
         "trades": [
           {
@@ -3895,7 +3895,7 @@
         "compoundedReturn": 0.43694776913210465,
         "closedTradeDrawdown": 0.2355392215937263,
         "startDate": "2022-01-27",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "later": {
         "trades": [
@@ -4050,17 +4050,17 @@
         "profitFactor": 1.9902981311707768,
         "compoundedReturn": 0.2505920709802669,
         "closedTradeDrawdown": 0.1365974979239426,
-        "startDate": "2025-05-08",
-        "endDate": "2026-11-05"
+        "startDate": "2025-05-07",
+        "endDate": "2026-11-04"
       },
       "stress": {
         "count": 9,
         "meanReturn": 0.023637359556099826
       },
-      "buyHoldLater": 1.1002641452982713
+      "buyHoldLater": 1.1397370758165395
     },
     "ALARK": {
-      "signature": "58722059",
+      "signature": "2fe4e320",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -4548,7 +4548,7 @@
         "count": 7,
         "meanReturn": -0.0705696108882213
       },
-      "buyHoldLater": 0.14719289610048625
+      "buyHoldLater": 0.14719286212636384
     },
     "ALBRK": {
       "signature": "12fb4604",
@@ -5221,7 +5221,7 @@
       "buyHoldLater": -0.32162409744483034
     },
     "ANHYT": {
-      "signature": "78153e50",
+      "signature": "ab0286a",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -5852,7 +5852,7 @@
         "count": 8,
         "meanReturn": -0.02642418961897461
       },
-      "buyHoldLater": 0.20187949403746908
+      "buyHoldLater": 0.20187953251813728
     },
     "ANSGR": {
       "signature": "6b250162",
@@ -6333,7 +6333,7 @@
       "buyHoldLater": 0.038057896657166745
     },
     "ARCLK": {
-      "signature": "8be29e8d",
+      "signature": "803183d7",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -6769,7 +6769,7 @@
         "count": 6,
         "meanReturn": 0.0010590221672281408
       },
-      "buyHoldLater": -0.3827555871271734
+      "buyHoldLater": -0.38275560466252545
     },
     "ASELS": {
       "signature": "9b3419bf",
@@ -7341,9 +7341,9 @@
       "buyHoldLater": 1.1113829451073185
     },
     "ASTOR": {
-      "signature": "3318bf49",
-      "lastDate": "2026-11-05",
-      "bars": 948,
+      "signature": "efc8125b",
+      "lastDate": "2026-11-04",
+      "bars": 947,
       "full": {
         "trades": [
           {
@@ -7680,7 +7680,7 @@
         "compoundedReturn": 1.2762785559663579,
         "closedTradeDrawdown": 0.18962395767118423,
         "startDate": "2023-04-17",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "later": {
         "trades": [
@@ -7783,14 +7783,14 @@
         "profitFactor": 3.9534745060959757,
         "compoundedReturn": 0.42639370191616477,
         "closedTradeDrawdown": 0.060639255457030306,
-        "startDate": "2025-09-18",
-        "endDate": "2026-11-05"
+        "startDate": "2025-09-17",
+        "endDate": "2026-11-04"
       },
       "stress": {
         "count": 7,
         "meanReturn": 0.05241795402814194
       },
-      "buyHoldLater": 0.34452077480138876
+      "buyHoldLater": 0.4644057174736913
     },
     "AYGAZ": {
       "signature": "6ad8b07e",
@@ -13168,7 +13168,7 @@
       "buyHoldLater": -0.30351615609360993
     },
     "CWENE": {
-      "signature": "35b8c775",
+      "signature": "6632840b",
       "lastDate": "2026-11-05",
       "bars": 875,
       "full": {
@@ -13500,7 +13500,7 @@
         "count": 7,
         "meanReturn": -0.08028395061321857
       },
-      "buyHoldLater": -0.22583552636953697
+      "buyHoldLater": -0.22583548162014278
     },
     "DOAS": {
       "signature": "6c8c1680",
@@ -13981,7 +13981,7 @@
       "buyHoldLater": -0.34989014519923667
     },
     "DOHOL": {
-      "signature": "80944c9",
+      "signature": "90408742",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -14417,10 +14417,10 @@
         "count": 3,
         "meanReturn": 0.02989430321446866
       },
-      "buyHoldLater": 0.1849525205686191
+      "buyHoldLater": 0.18495258804883452
     },
     "ECILC": {
-      "signature": "47bc99ba",
+      "signature": "c3802a44",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -14934,7 +14934,7 @@
         "count": 6,
         "meanReturn": 0.028616978075973614
       },
-      "buyHoldLater": 0.0018036039269593296
+      "buyHoldLater": 0.0018035625301178193
     },
     "ECZYT": {
       "signature": "b48b1a6b",
@@ -16462,7 +16462,7 @@
       "buyHoldLater": 0.15082082683830955
     },
     "EKGYO": {
-      "signature": "1999d166",
+      "signature": "d8197a1b",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -16950,7 +16950,7 @@
         "count": 6,
         "meanReturn": 0.020302185768923713
       },
-      "buyHoldLater": 0.40051090389728206
+      "buyHoldLater": 0.400510823638782
     },
     "ENERY": {
       "signature": "58588c96",
@@ -17405,7 +17405,7 @@
       "buyHoldLater": 0.3344572989942445
     },
     "ENJSA": {
-      "signature": "1dbb5b42",
+      "signature": "3ff2da9b",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -17867,10 +17867,10 @@
         "count": 8,
         "meanReturn": 0.02767220281511429
       },
-      "buyHoldLater": 1.1984043974364171
+      "buyHoldLater": 1.1984043421538262
     },
     "ENKAI": {
-      "signature": "afe8a437",
+      "signature": "d0dce4ac",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -18254,7 +18254,7 @@
         "count": 3,
         "meanReturn": -0.03286392972918958
       },
-      "buyHoldLater": 0.24943918041911362
+      "buyHoldLater": 0.24943921123142454
     },
     "ENTRA": {
       "signature": "110bca5e",
@@ -18501,7 +18501,7 @@
       "buyHoldLater": -0.020223992710093897
     },
     "EREGL": {
-      "signature": "84216e60",
+      "signature": "462c16e6",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -19002,7 +19002,7 @@
         "count": 4,
         "meanReturn": -0.034918093176454085
       },
-      "buyHoldLater": 0.34784907346993177
+      "buyHoldLater": 0.34784911723126677
     },
     "EUREN": {
       "signature": "c5885e6a",
@@ -19766,7 +19766,7 @@
       "buyHoldLater": -0.9590168813497617
     },
     "FROTO": {
-      "signature": "7e09d7e6",
+      "signature": "247cb1fa",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -20137,7 +20137,7 @@
         "count": 3,
         "meanReturn": 0.049846797505328944
       },
-      "buyHoldLater": -0.22545398596503263
+      "buyHoldLater": -0.2254539631339041
     },
     "GARAN": {
       "signature": "ab814d96",
@@ -20592,9 +20592,9 @@
       "buyHoldLater": 0.4031064436826943
     },
     "GLRMK": {
-      "signature": "b8e1675b",
-      "lastDate": "2026-11-05",
-      "bars": 451,
+      "signature": "16edb1e2",
+      "lastDate": "2026-11-04",
+      "bars": 450,
       "full": {
         "trades": [
           {
@@ -20697,7 +20697,7 @@
         "compoundedReturn": 0.017064991821915232,
         "closedTradeDrawdown": 0.06950579954948066,
         "startDate": "2025-04-14",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "later": {
         "trades": [
@@ -20723,13 +20723,13 @@
         "compoundedReturn": -0.06543091394568723,
         "closedTradeDrawdown": 0.06543091394568723,
         "startDate": "2026-04-20",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "stress": {
         "count": 0,
         "meanReturn": null
       },
-      "buyHoldLater": -0.49309919162111504
+      "buyHoldLater": -0.48007947941154727
     },
     "GLYHO": {
       "signature": "8971c953",
@@ -22930,7 +22930,7 @@
       "buyHoldLater": -0.25320238184718413
     },
     "HALKB": {
-      "signature": "ec624c36",
+      "signature": "ad771a8d",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -23548,7 +23548,7 @@
         "count": 8,
         "meanReturn": -0.010381131145584033
       },
-      "buyHoldLater": 0.9870606053564515
+      "buyHoldLater": 0.9870607044617234
     },
     "HEKTS": {
       "signature": "9bb0578b",
@@ -24520,7 +24520,7 @@
       "buyHoldLater": 0.26193244578803565
     },
     "ISDMR": {
-      "signature": "208416a6",
+      "signature": "b05d339f",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -25073,7 +25073,7 @@
         "count": 7,
         "meanReturn": 0.012318204019789876
       },
-      "buyHoldLater": 0.5013570203333901
+      "buyHoldLater": 0.5013570790949198
     },
     "ISMEN": {
       "signature": "f5f87797",
@@ -27131,7 +27131,7 @@
       "buyHoldLater": -0.30926564949197655
     },
     "KCHOL": {
-      "signature": "dbaa70f2",
+      "signature": "6fa3b5a1",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -27658,7 +27658,7 @@
         "count": 5,
         "meanReturn": -0.007360784252695973
       },
-      "buyHoldLater": 0.4371784769559206
+      "buyHoldLater": 0.4371784556433387
     },
     "KORDS": {
       "signature": "7cf7f115",
@@ -28100,9 +28100,9 @@
       "buyHoldLater": -0.11831270572178287
     },
     "KRDMD": {
-      "signature": "d5e6caae",
-      "lastDate": "2026-11-05",
-      "bars": 1253,
+      "signature": "d881b0fc",
+      "lastDate": "2026-11-04",
+      "bars": 1252,
       "full": {
         "trades": [
           {
@@ -28582,7 +28582,7 @@
         "compoundedReturn": -0.18695468759109557,
         "closedTradeDrawdown": 0.5435974349651977,
         "startDate": "2022-01-27",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "later": {
         "trades": [
@@ -28776,17 +28776,17 @@
         "profitFactor": 3.7323484435127505,
         "compoundedReturn": 0.4894290173605105,
         "closedTradeDrawdown": 0.07454415679599469,
-        "startDate": "2025-05-08",
-        "endDate": "2026-11-05"
+        "startDate": "2025-05-07",
+        "endDate": "2026-11-04"
       },
       "stress": {
         "count": 9,
         "meanReturn": 0.02740648506316792
       },
-      "buyHoldLater": 0.5431819673619711
+      "buyHoldLater": 0.7699096917423651
     },
     "LMKDC": {
-      "signature": "47b7870b",
+      "signature": "b60c8fa4",
       "lastDate": "2026-11-05",
       "bars": 674,
       "full": {
@@ -28943,17 +28943,17 @@
             "target": 24.82,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 21.860001,
+            "exit": 21.86,
             "reason": "period-end",
-            "netReturn": 0.06729095720324052
+            "netReturn": 0.06729090837931984
           }
         ],
         "skipped": 6,
         "count": 12,
         "winRate": 0.6666666666666666,
-        "meanReturn": 0.03282366168867815,
-        "profitFactor": 3.9042372916848067,
-        "compoundedReturn": 0.44593712714093425,
+        "meanReturn": 0.0328236576200181,
+        "profitFactor": 3.9042369316898013,
+        "compoundedReturn": 0.4459370609955975,
         "closedTradeDrawdown": 0.049523752609067606,
         "startDate": "2024-05-23",
         "endDate": "2026-11-05"
@@ -29008,29 +29008,29 @@
             "target": 24.82,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 21.860001,
+            "exit": 21.86,
             "reason": "period-end",
-            "netReturn": 0.06729095720324052
+            "netReturn": 0.06729090837931984
           }
         ],
         "skipped": 1,
         "count": 4,
         "winRate": 0.5,
-        "meanReturn": -0.011998633079564724,
-        "profitFactor": 0.6201765208280897,
-        "compoundedReturn": -0.05313949969710252,
+        "meanReturn": -0.011998645285544896,
+        "profitFactor": 0.6201761344409217,
+        "compoundedReturn": -0.05313954301185342,
         "closedTradeDrawdown": 0.12255487450860891,
         "startDate": "2026-01-14",
         "endDate": "2026-11-05"
       },
       "stress": {
         "count": 4,
-        "meanReturn": -0.015942781802989497
+        "meanReturn": -0.015942793960242813
       },
-      "buyHoldLater": -0.2497334415249446
+      "buyHoldLater": -0.2497334758463775
     },
     "MAVI": {
-      "signature": "3b1eef3a",
+      "signature": "8eb29ef1",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -29453,7 +29453,7 @@
         "count": 5,
         "meanReturn": 0.014824893587282006
       },
-      "buyHoldLater": 0.07516093402264512
+      "buyHoldLater": 0.07516090404046727
     },
     "MGROS": {
       "signature": "844bf20e",
@@ -31534,7 +31534,7 @@
       "buyHoldLater": -0.23172248467888334
     },
     "OYAKC": {
-      "signature": "c3ddccc3",
+      "signature": "e4059c94",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -32048,7 +32048,7 @@
         "count": 5,
         "meanReturn": -0.02737802068150048
       },
-      "buyHoldLater": -0.08053537128778487
+      "buyHoldLater": -0.08053532403882924
     },
     "PAHOL": {
       "signature": "f395c413",
@@ -32139,7 +32139,7 @@
       "buyHoldLater": -0.4442564147068182
     },
     "PETKM": {
-      "signature": "3553a999",
+      "signature": "4f5077e",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -32692,10 +32692,10 @@
         "count": 9,
         "meanReturn": -0.026911125416196596
       },
-      "buyHoldLater": 0.030184667552150657
+      "buyHoldLater": 0.030184728582051346
     },
     "PGSUS": {
-      "signature": "756b40c",
+      "signature": "dac1ad8f",
       "lastDate": "2026-11-05",
       "bars": 1254,
       "full": {
@@ -33027,10 +33027,10 @@
         "count": 3,
         "meanReturn": -0.04166334901852897
       },
-      "buyHoldLater": -0.3888530219735967
+      "buyHoldLater": -0.38885299576286014
     },
     "RGYAS": {
-      "signature": "db069668",
+      "signature": "d98399f4",
       "lastDate": "2026-11-05",
       "bars": 630,
       "full": {
@@ -33258,7 +33258,7 @@
         "count": 2,
         "meanReturn": -0.0745554367054106
       },
-      "buyHoldLater": 0.10624833112902232
+      "buyHoldLater": 0.10624829267311409
     },
     "RYSAS": {
       "signature": "88ffd70e",
@@ -33908,7 +33908,7 @@
       "buyHoldLater": 0.6598059346640883
     },
     "SAHOL": {
-      "signature": "b15b5db9",
+      "signature": "1f9ee65e",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -34409,7 +34409,7 @@
         "count": 7,
         "meanReturn": 0.005467456452579305
       },
-      "buyHoldLater": 0.153986125405857
+      "buyHoldLater": 0.15398615252656556
     },
     "SASA": {
       "signature": "520f5116",
@@ -34812,7 +34812,7 @@
       "buyHoldLater": -0.5705044936581862
     },
     "SISE": {
-      "signature": "e7ffd55a",
+      "signature": "7c7ed368",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -35300,7 +35300,7 @@
         "count": 4,
         "meanReturn": -0.01682225913175145
       },
-      "buyHoldLater": 0.05624546975761291
+      "buyHoldLater": 0.056245529398806005
     },
     "SNGYO": {
       "signature": "7443d693",
@@ -36454,7 +36454,7 @@
       "buyHoldLater": 0.3999849984766364
     },
     "TABGD": {
-      "signature": "b5e725ce",
+      "signature": "a42d1954",
       "lastDate": "2026-11-05",
       "bars": 758,
       "full": {
@@ -36689,17 +36689,17 @@
             "target": 228.12078673690655,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 195.600006,
+            "exit": 195.6,
             "reason": "period-end",
-            "netReturn": 0.009425739133132716
+            "netReturn": 0.009425708169154001
           }
         ],
         "skipped": 6,
         "count": 18,
         "winRate": 0.6111111111111112,
-        "meanReturn": 0.006458055387563123,
-        "profitFactor": 1.3876094048990104,
-        "compoundedReturn": 0.10302823285384277,
+        "meanReturn": 0.0064580536673420836,
+        "profitFactor": 1.3876093016521638,
+        "compoundedReturn": 0.10302819901862192,
         "closedTradeDrawdown": 0.11047746256919899,
         "startDate": "2024-01-18",
         "endDate": "2026-11-05"
@@ -36780,26 +36780,26 @@
             "target": 228.12078673690655,
             "setup": "HACİMLİ TOPARLANMA",
             "exitDate": "2026-11-05",
-            "exit": 195.600006,
+            "exit": 195.6,
             "reason": "period-end",
-            "netReturn": 0.009425739133132716
+            "netReturn": 0.009425708169154001
           }
         ],
         "skipped": 3,
         "count": 6,
         "winRate": 0.5,
-        "meanReturn": -0.001212787605055406,
-        "profitFactor": 0.9347666838569035,
-        "compoundedReturn": -0.012040338693199537,
+        "meanReturn": -0.0012127927657185251,
+        "profitFactor": 0.9347664062755963,
+        "compoundedReturn": -0.012040368998709639,
         "closedTradeDrawdown": 0.043796926570432104,
         "startDate": "2025-12-09",
         "endDate": "2026-11-05"
       },
       "stress": {
         "count": 3,
-        "meanReturn": -0.003758966988298066
+        "meanReturn": -0.0037589772684211153
       },
-      "buyHoldLater": -0.1204552250442682
+      "buyHoldLater": -0.1204552520241684
     },
     "TAVHL": {
       "signature": "36f7db0d",
@@ -37332,9 +37332,9 @@
       "buyHoldLater": 0.31625035105378974
     },
     "TCELL": {
-      "signature": "9411ecdc",
-      "lastDate": "2026-11-05",
-      "bars": 1253,
+      "signature": "785ecaf0",
+      "lastDate": "2026-11-04",
+      "bars": 1252,
       "full": {
         "trades": [
           {
@@ -37684,7 +37684,7 @@
         "compoundedReturn": 0.13944091791955593,
         "closedTradeDrawdown": 0.27280900436740374,
         "startDate": "2022-01-27",
-        "endDate": "2026-11-05"
+        "endDate": "2026-11-04"
       },
       "later": {
         "trades": [
@@ -37748,17 +37748,17 @@
         "profitFactor": 0.7160952122914203,
         "compoundedReturn": -0.03556857981790995,
         "closedTradeDrawdown": 0.10483706267111492,
-        "startDate": "2025-05-08",
-        "endDate": "2026-11-05"
+        "startDate": "2025-05-07",
+        "endDate": "2026-11-04"
       },
       "stress": {
         "count": 0,
         "meanReturn": null
       },
-      "buyHoldLater": 0.010873841401627615
+      "buyHoldLater": 0.05081352003746065
     },
     "TCKRC": {
-      "signature": "5283d8cb",
+      "signature": "5644a9b3",
       "lastDate": "2026-11-05",
       "bars": 552,
       "full": {
@@ -38038,7 +38038,7 @@
         "count": 1,
         "meanReturn": 0.1774016248156467
       },
-      "buyHoldLater": 0.28966044172952743
+      "buyHoldLater": 0.2896604746010776
     },
     "THYAO": {
       "signature": "6909c6c7",
@@ -38880,7 +38880,7 @@
       "buyHoldLater": 0.6392111760394732
     },
     "TOASO": {
-      "signature": "36b8fdf5",
+      "signature": "a1f8ef13",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -39381,7 +39381,7 @@
         "count": 5,
         "meanReturn": -0.027281289418081767
       },
-      "buyHoldLater": 0.10463631345607194
+      "buyHoldLater": 0.10463632833666914
     },
     "TRALT": {
       "signature": "c1e9237d",
@@ -39940,7 +39940,7 @@
       "buyHoldLater": 0.45855039147710785
     },
     "TRENJ": {
-      "signature": "573b62f7",
+      "signature": "c1f8a5c1",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -40519,10 +40519,10 @@
         "count": 5,
         "meanReturn": -0.018005035948247892
       },
-      "buyHoldLater": 0.1030416332409807
+      "buyHoldLater": 0.10304167783835316
     },
     "TRGYO": {
-      "signature": "52caf72c",
+      "signature": "c314179e",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -41140,10 +41140,10 @@
         "count": 9,
         "meanReturn": 0.0011251261937068355
       },
-      "buyHoldLater": 0.496934027939832
+      "buyHoldLater": 0.4969339945447626
     },
     "TRMET": {
-      "signature": "93ac9969",
+      "signature": "6bd3a9e4",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -41761,7 +41761,7 @@
         "count": 4,
         "meanReturn": 0.04708398930596966
       },
-      "buyHoldLater": 0.23622828888978042
+      "buyHoldLater": 0.23622831155207757
     },
     "TSKB": {
       "signature": "fd69b53",
@@ -42294,7 +42294,7 @@
       "buyHoldLater": -0.03781870221820505
     },
     "TTKOM": {
-      "signature": "f86a7538",
+      "signature": "98cd75b3",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -42847,7 +42847,7 @@
         "count": 5,
         "meanReturn": -0.02766913452419766
       },
-      "buyHoldLater": -0.1235129918377531
+      "buyHoldLater": -0.12351297405189621
     },
     "TTRAK": {
       "signature": "4ace4c6",
@@ -45370,7 +45370,7 @@
       "buyHoldLater": -0.28856574486759967
     },
     "VAKBN": {
-      "signature": "8c2201b",
+      "signature": "1197e19b",
       "lastDate": "2026-11-05",
       "bars": 1253,
       "full": {
@@ -45806,7 +45806,7 @@
         "count": 4,
         "meanReturn": -0.044766542458161335
       },
-      "buyHoldLater": 0.3711278310046573
+      "buyHoldLater": 0.37112787412188597
     },
     "VESTL": {
       "signature": "dc0184ac",
