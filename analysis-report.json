@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-11-19T16:20:39.912Z",
-  "snapshotAt": "2026-11-19T16:17:08+00:00",
+  "generatedAt": "2026-11-19T16:42:49.322Z",
+  "snapshotAt": "2026-11-19T16:37:55+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -597,7 +597,7 @@
       "buyHoldLater": 0.05858440187687464
     },
     "AGHOL": {
-      "signature": "a8ac5dea",
+      "signature": "a80909bf",
       "lastDate": "2026-11-19",
       "bars": 1254,
       "full": {
@@ -8284,7 +8284,7 @@
       "buyHoldLater": 1.013331314025645
     },
     "BERA": {
-      "signature": "97493e18",
+      "signature": "d8d5879f",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -9461,7 +9461,7 @@
       "buyHoldLater": 0.600280610327462
     },
     "BINHO": {
-      "signature": "385781a1",
+      "signature": "db52d500",
       "lastDate": "2026-11-19",
       "bars": 665,
       "full": {
@@ -14859,7 +14859,7 @@
       "buyHoldLater": 0.018644550811882432
     },
     "ECZYT": {
-      "signature": "d5a6c107",
+      "signature": "cef99981",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -15337,7 +15337,7 @@
       "buyHoldLater": -0.1600332501996009
     },
     "EGEEN": {
-      "signature": "48b6e453",
+      "signature": "d9bd3664",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -18140,7 +18140,7 @@
       "buyHoldLater": 0.23623547700864367
     },
     "ENTRA": {
-      "signature": "a33d542f",
+      "signature": "8b0f623d",
       "lastDate": "2026-11-19",
       "bars": 655,
       "full": {
@@ -21170,7 +21170,7 @@
       "buyHoldLater": 1.1003970021389726
     },
     "GRSEL": {
-      "signature": "55680b50",
+      "signature": "8c5eb77c",
       "lastDate": "2026-11-19",
       "bars": 1176,
       "full": {
@@ -23407,7 +23407,7 @@
       "buyHoldLater": 0.9202574199343867
     },
     "HEKTS": {
-      "signature": "b93d6597",
+      "signature": "820255a1",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -23781,7 +23781,7 @@
       "buyHoldLater": -0.490714364151955
     },
     "ISCTR": {
-      "signature": "f80ad42b",
+      "signature": "c3e287d8",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -27930,7 +27930,7 @@
       "buyHoldLater": -0.21001957252502468
     },
     "KRDMD": {
-      "signature": "4a96d3e4",
+      "signature": "5405c359",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -29751,7 +29751,7 @@
       "buyHoldLater": -0.11003465705405113
     },
     "MPARK": {
-      "signature": "164c175a",
+      "signature": "24608f60",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -31930,7 +31930,7 @@
       "buyHoldLater": -0.4202341585485745
     },
     "PETKM": {
-      "signature": "7ec660d3",
+      "signature": "b3898372",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -37510,7 +37510,7 @@
       "buyHoldLater": -0.0633800029099989
     },
     "TCKRC": {
-      "signature": "722ec216",
+      "signature": "bb9dbccd",
       "lastDate": "2026-11-19",
       "bars": 562,
       "full": {
@@ -38193,7 +38193,7 @@
       "buyHoldLater": 0.1573083920654268
     },
     "TKFEN": {
-      "signature": "daf19b4e",
+      "signature": "15f1415c",
       "lastDate": "2026-11-19",
       "bars": 1254,
       "full": {
@@ -42020,7 +42020,7 @@
       "buyHoldLater": -0.1010983399926445
     },
     "TTKOM": {
-      "signature": "152bcea2",
+      "signature": "7473848d",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -43649,7 +43649,7 @@
       "buyHoldLater": -0.2745611139924874
     },
     "TUPRS": {
-      "signature": "65a5653a",
+      "signature": "571e6210",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
@@ -45548,7 +45548,7 @@
       "buyHoldLater": 0.39608524115120236
     },
     "VESTL": {
-      "signature": "d31d4b5a",
+      "signature": "69cd17c4",
       "lastDate": "2026-11-19",
       "bars": 1253,
       "full": {
