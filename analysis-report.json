@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "generatedAt": "2026-11-24T18:39:27.033Z",
-  "snapshotAt": "2026-11-24T18:37:22+00:00",
+  "generatedAt": "2026-11-24T19:01:38.778Z",
+  "snapshotAt": "2026-11-24T18:56:47+00:00",
   "costBps": 20,
   "stressCostBps": 40,
   "assumptions": [
@@ -28,7 +28,7 @@
   },
   "assets": {
     "AEFES": {
-      "signature": "adab2345",
+      "signature": "ae3abb7a",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
@@ -1075,7 +1075,7 @@
       "buyHoldLater": -0.07591546313545716
     },
     "AHGAZ": {
-      "signature": "da88788e",
+      "signature": "824fbe32",
       "lastDate": "2026-11-24",
       "bars": 978,
       "full": {
@@ -20449,7 +20449,7 @@
       "buyHoldLater": 0.2743566705339322
     },
     "GLRMK": {
-      "signature": "2f41885c",
+      "signature": "23d8dc6",
       "lastDate": "2026-11-24",
       "bars": 464,
       "full": {
@@ -28821,7 +28821,7 @@
       "buyHoldLater": -0.402395244837756
     },
     "MAVI": {
-      "signature": "21001bd8",
+      "signature": "d8ffd939",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
@@ -29712,7 +29712,7 @@
       "buyHoldLater": -0.16351483550891122
     },
     "MPARK": {
-      "signature": "3f8836ed",
+      "signature": "f7619ee4",
       "lastDate": "2026-11-24",
       "bars": 1253,
       "full": {
@@ -31286,7 +31286,7 @@
       "buyHoldLater": -0.2493670038011374
     },
     "OYAKC": {
-      "signature": "f47ff96",
+      "signature": "b7961758",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
@@ -32434,7 +32434,7 @@
       "buyHoldLater": -0.101663501084997
     },
     "PGSUS": {
-      "signature": "981674ea",
+      "signature": "3e730b0",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
@@ -32987,7 +32987,7 @@
       "buyHoldLater": -0.0796305296167159
     },
     "RYSAS": {
-      "signature": "94dded3d",
+      "signature": "dbd05a79",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
@@ -35016,7 +35016,7 @@
       "buyHoldLater": -0.09868497781249097
     },
     "SNGYO": {
-      "signature": "c9baed64",
+      "signature": "8efecb87",
       "lastDate": "2026-11-24",
       "bars": 1254,
       "full": {
